@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="#">
     <img src="app/src/main/res/drawable/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,7 +13,7 @@
   <p align="center">
     أجدد واجهات المستخدم وافضل تطبيق في السوق لمشاهدة الكرتون و المسلسلات و الكوميكس مع لوحة تحكم قوية
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong> طريقة تتبيت التطبيق في الحاسوب و العمل به </strong></a>
+    <a href="https://www.youtube.com/watch?v=ctFgvFhKsHQ&t=3s"><strong> طريقة تتبيت التطبيق في الحاسوب و العمل به </strong></a>
     <br />
   </p>
 </div>
