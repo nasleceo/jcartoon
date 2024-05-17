@@ -3,7 +3,7 @@ package com.anass.jplus.API;
 public class AraDrama_links {
 	
 	
-	static public String Baseurl = "https://aradrmatv.com/";
+	static public String Baseurl = "";
 	
 	static public String NextPageSearch = Baseurl+"page/2/?s="+"searchqeary";
 	

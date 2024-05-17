@@ -11,7 +11,7 @@ public class BEANLINKS {
 
 
     static public final String BASEURL = "https://api.themoviedb.org/3/";
-    static public final String APIKAY = "7ee6665aca1f0ec30abb779045e867cd";
+    static public final String APIKAY = "7";
     public static String getImagePathLink(String path){
         return "https://image.tmdb.org/t/p/w500/"+path;
     }
