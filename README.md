@@ -13,76 +13,42 @@
   <p align="center">
     أجدد واجهات المستخدم وافضل تطبيق في السوق لمشاهدة الكرتون و المسلسلات و الكوميكس مع لوحة تحكم قوية
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong> طريقة تتبيت التطبيق في الحاسوب و العمل به </strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## حول التطبيق 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+مميزات جديدة و حصرية لتطبيق فقط 🔥
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+التحميل السريع و الخفيف. 
+الكوميكس.
+مشغل جديد و خفيف.
+سيرفرات خفيفة تدعم الانترنت الضعيف.
+مكتبة ضخمة من المسلسلات و الافلام .
+مجتمع جي كرتون لنشر المنشورات و النظريات و المراجعات و التعليق والاعجاب
+وايضا نظام المتابعة .
+غرف جي كرتون لمشاهدة كرتونك المفضل مع صديقك المفضل و الشات في نفس الوقت.
+والمزيد والمزيد 🔥
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-### Built With
+### كيف تم بناء التطبيق و لوحة التحكم 
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+ * تم بناء التطبيق كامله بلغة الجافا في بئة العمل اندرويد ستوديو وتم استغراق مايقارب شهرين من البرمجة و التصميم لإخراج هده النسخة من التطبيق
+ * ولوحة التحكم تم بناءها بلغة php مع استعمال فريمورك لارافيل وهو افضل أطر العمل الخاصة بالسيرفرات لانه يدعم قاعدة البيانات mysql و كدالك API المستعملة لربط التطبيق مع لوحة التحكم .
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
@@ -92,10 +58,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## كيف استعمل اتبث التطبيق و لوحة التحكم واغير اسم التطبيق و اللوغو و كود الاعلانات
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+اولا يجب ان تتبت لوحة التحكم في السيرفر حتي نوفر api جاهز للتطبيق . ستجدون لوحة التحكم في هدا الرابط مع طريقة تجهيزها في السيرفر : 
 
 ### Prerequisites
 
