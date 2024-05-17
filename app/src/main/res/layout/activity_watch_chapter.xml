@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/bg4"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:orientation="horizontal"
+            android:background="@color/bg4"
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backch"
+                android:theme="@style/MyRipple"
+                android:layout_width="30dp"
+                android:layout_marginEnd="11dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="9dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/white" />
+
+
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:id="@+id/myspiner"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:gravity="end|center_vertical"
+                android:layout_toEndOf="@+id/backch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/alexandria"
+                    android:text="الأعداد"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:theme="@style/MyRipple"
+                    android:layout_width="30dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="9dp"
+                    android:src="@drawable/ic_arrow_drop_down_24"
+                    app:tint="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/showlisto"
+            android:theme="@style/MyRipple"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/more"
+            app:tint="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/progreed"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/white" />
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginEnd="20dp"
+        android:id="@+id/titlinf"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/episode"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/alexandria"
+            android:gravity="start"
+            android:maxLines="1"
+            android:text="الحلقة 1"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/anime"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/arabic_kufi"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="وقت المغامرة"
+            android:textColor="#A3A3A3"
+            android:textSize="9dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#FFFFFF"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/click_animation" />
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/creatroom"
+            android:layout_width="32dp"
+            android:visibility="visible"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/ic_add"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/see_epe"
+            android:id="@+id/download_epe"
+            android:layout_width="30dp"
+            android:visibility="visible"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:foreground="@drawable/click_animation_round"
+            android:padding="3dp"
+            android:src="@drawable/donwload"
+            app:tint="@color/white" />
+
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:id="@+id/see_epe"
+            android:layout_width="30dp"
+            android:visibility="visible"
+            android:layout_height="30dp"
+            android:src="@drawable/eyew"
+            app:tint="@color/white" />
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:id="@+id/see_epe_yes"
+            android:layout_width="30dp"
+            android:visibility="gone"
+            android:layout_height="30dp"
+            android:src="@drawable/eyeblue" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/thumb"
+        android:layout_alignParentEnd="true"
+        app:cardCornerRadius="3dp"
+        app:cardBackgroundColor="@color/bg4"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="120dp"
+        android:layout_height="80dp">
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="80dp">
+
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:src="@drawable/fin_profile"
+                android:scaleType="centerCrop"
+                android:alpha="0.5"
+                android:layout_width="120dp"
+                android:layout_height="80dp"/>
+            <ImageView
+                android:id="@+id/playbtnn"
+                android:src="@drawable/play"
+                app:tint="@color/white"
+                android:padding="25dp"
+                android:layout_width="120dp"
+                android:layout_height="80dp"/>
+
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/showWhems"
+                android:layout_margin="5dp"
+                android:layout_alignParentBottom="true"
+                app:trackColor="@color/white"
+                app:indicatorColor="@color/bgbar"
+                android:progress="0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

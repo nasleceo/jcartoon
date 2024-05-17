@@ -1,0 +1,180 @@
+{
+  "project_info": {
+    "project_number": "640069686740",
+    "firebase_url": "https://jcartoon-388d9-default-rtdb.firebaseio.com",
+    "project_id": "jcartoon-388d9",
+    "storage_bucket": "jcartoon-388d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640069686740:android:03019d4c8d1912c039b241",
+        "android_client_info": {
+          "package_name": "com.anass.anasscartoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640069686740-m17arqb9onu4c62bg4meqtpd3csaq55g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anass.anasscartoon",
+            "certificate_hash": "d79b307ca7249425bd64d7b64be53905fd23cef5"
+          }
+        },
+        {
+          "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5XasMgP0r2c4421aY0x8IWEA1dDrKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640069686740:android:58607e48500f542339b241",
+        "android_client_info": {
+          "package_name": "com.anass.jcartoonmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640069686740-bu45qm96udkcralcg1q8tggkgeklsjj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anass.jcartoonmanager",
+            "certificate_hash": "364388b4f523454940d0694de23b451dec1c0899"
+          }
+        },
+        {
+          "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5XasMgP0r2c4421aY0x8IWEA1dDrKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640069686740:android:56a3470c4a04760739b241",
+        "android_client_info": {
+          "package_name": "com.anass.jcartoonmanagerlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640069686740-7qv0mu1lj31bpjbnj539om11rflh59pe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anass.jcartoonmanagerlite",
+            "certificate_hash": "364388b4f523454940d0694de23b451dec1c0899"
+          }
+        },
+        {
+          "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5XasMgP0r2c4421aY0x8IWEA1dDrKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640069686740:android:cb058dc9f430ae6639b241",
+        "android_client_info": {
+          "package_name": "com.anass.jplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5XasMgP0r2c4421aY0x8IWEA1dDrKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640069686740:android:ad59f07ca5e7f10039b241",
+        "android_client_info": {
+          "package_name": "com.anass.jycartoonlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5XasMgP0r2c4421aY0x8IWEA1dDrKpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640069686740-69smj0fl1llrp6pou9lgn0d558d2j64q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/foru"
+        android:title="الرئيسية"
+        android:icon="@drawable/foryou"/>
+
+    <item android:id="@+id/movie"
+        android:title="البحث"
+        android:icon="@drawable/originalx"/>
+
+    <item android:id="@+id/search"
+        android:title="المجتمع"
+        android:icon="@drawable/mangax"/>
+
+    <item android:id="@+id/profi"
+        android:title="المزيد"
+        android:icon="@drawable/more"/>
+
+
+</menu>

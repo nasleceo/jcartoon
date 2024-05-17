@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/bg4"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/constrr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@color/bg4"
+            android:id="@+id/titlera"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/backch"
+                style="@style/MyRipple"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:outlineProvider="background"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_centerVertical="true"
+
+                android:layout_marginEnd="23dp"
+                android:layout_marginStart="23dp"
+                android:id="@+id/fulnm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arabic_kufi"
+                android:text="تعديل الملف الشخصي"
+                android:layout_toEndOf="@+id/backch"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/cccss"
+            android:layout_below="@+id/titlera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/usercover"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/mycover"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/b"
+        app:layout_constraintBottom_toBottomOf="@+id/usercover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userimg"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="1.5dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"/>
+
+    <ImageView
+        android:id="@+id/addimgprof"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:layout_width="40dp"
+        android:layout_below="@+id/userimg"
+        android:layout_height="40dp"
+        android:src="@drawable/addimage"
+        app:layout_constraintBottom_toBottomOf="@+id/usercover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>
+        <LinearLayout
+            android:id="@+id/user_fuulname"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/cccss"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="end"
+                android:layout_above="@+id/editcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/back"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:fontFamily="@font/cairobold"
+                    android:text="إسمك ( يظهر للأخرين )"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:visibility="invisible"
+
+                    android:id="@+id/progressusersearch"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="15dp"
+                    android:indeterminateTint="@color/white"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    />
+                <ImageButton
+                    android:visibility="invisible"
+                    android:id="@+id/imageButton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round_ripple"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/usertrue"
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/onenameedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:maxLength="25"
+                    android:maxHeight="50dp"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:inputType="text"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/editbglogin"
+                    android:fontFamily="@font/cairobold"
+                    android:hint="anass senpai"
+                    android:padding="13dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="12dp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/user_li"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/user_fuulname"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="end"
+                android:layout_above="@+id/editcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/back"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:fontFamily="@font/cairobold"
+                    android:text="إسم خاص بك"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/usernameedit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:maxLength="15"
+                    android:maxHeight="50dp"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:inputType="text"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@drawable/editbglogin"
+                    android:fontFamily="@font/cairobold"
+                    android:hint="jcartoon_user"
+                    android:padding="13dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:layout_below="@+id/usernameedit"
+                    android:id="@+id/textmsg"
+                    android:visibility="invisible"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/alexandria"
+                    android:text="هدا الإسم محجوز من قبل"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <EditText
+
+            android:id="@+id/editpost"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/user_li"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:maxLength="300"
+            android:maxHeight="300dp"
+            android:gravity="top"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/editbg"
+            android:fontFamily="@font/arabic_kufi"
+            android:hint="صافي يالبن .... قشطة"
+            android:padding="13dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:id="@+id/allre"
+            android:layout_below="@+id/editpost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="80dp"
+
+            android:gravity="center"
+            android:layout_below="@+id/allre"
+            android:id="@+id/adds_ly"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/AddImage"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"                android:background="@drawable/btnloginbg"
+                android:foreground="@drawable/click_animation_round">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="حفظ المعلومات"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="12dp" />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

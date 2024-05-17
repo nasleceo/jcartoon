@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="fill_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginStart="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="14sp"
+        app:cardCornerRadius="8sp"
+        app:cardElevation="20dp"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1.4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/bggg"
+            android:background="@drawable/gradient_pages"
+            android:visibility="visible"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairobold"
+                    android:text="هل تريد الخروج من المنشور ؟"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="19dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addtofav_btn"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/addtomylist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/btnflwolbg"
+                    android:foreground="@drawable/click_animation_round"
+                    >
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/addtofv"
+                            android:layout_centerVertical="true"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:tint="@color/black"
+                            android:src="@drawable/ic_close" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="خروج"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/copylink_btn"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/copylinkprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btnflwolbg_copy"
+                    android:foreground="@drawable/click_animation_round"
+                    >
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_centerVertical="true"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:tint="@color/white"
+                            android:src="@drawable/ic_arrow_back" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="إلغاء"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>

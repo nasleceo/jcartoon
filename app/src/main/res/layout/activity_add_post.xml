@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:fillViewport="true"
+    android:id="@+id/scrollView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:background="@color/bg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:background="@drawable/gradient_activiti"
+                android:id="@+id/relat_appbar"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <RelativeLayout
+                    android:layout_marginBottom="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/cairobold"
+                            android:text="إضافة منشور"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="23dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/backch"
+                            android:layout_width="30dp"
+                            android:clickable="true"
+                            android:layout_height="30dp"
+                            app:civ_border_width="1dp"
+                            app:civ_border_overlay="true"
+                            app:civ_border_color="@color/white"
+                            android:src="@drawable/ic_close" />
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:visibility="visible"
+                android:orientation="vertical"
+                android:id="@+id/allview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/linlag"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/ttxradd"
+                        android:layout_marginBottom="8sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="نوع المنشور"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#AFAFAF"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/ttxradd"
+                        android:id="@+id/nbreplace"
+                        android:layout_centerVertical="true"
+                        app:boxStrokeColor="@color/white"
+                        app:boxStrokeWidth=".5dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_height="wrap_content">
+
+
+                        <AutoCompleteTextView
+                            android:id="@+id/menuoftypes"
+                            android:inputType="none"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/ttxraddcc"
+                        android:layout_marginBottom="8sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="السماح بالتعليقات"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#AFAFAF"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:id="@+id/comanttextin"
+                        android:layout_below="@+id/ttxraddcc"
+                        android:layout_centerVertical="true"
+                        app:hintTextAppearance="@style/tabtext"
+                        app:boxStrokeColor="@color/white"
+                        app:boxStrokeWidth=".5dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_height="wrap_content">
+
+
+                        <AutoCompleteTextView
+                            android:id="@+id/menuoftcoments"
+                            android:inputType="none"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="13dp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:windowSoftInputMode="adjustResize"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_gravity="end"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="هل هناك حرق للقصة ؟"
+                    android:textColor="#AFAFAF"
+                    android:textStyle="bold"
+                    android:textSize="15dp" />
+                <RadioGroup
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layoutDirection="rtl"
+                    android:id="@+id/grouipradohark"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:id="@+id/nohark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="لا"
+                        android:gravity="center"
+                        android:textColor="@drawable/radio_text_selected"
+                        android:checked="true"
+                        android:button="@color/transparent"
+                        android:background="@drawable/radio_btn_left_selec"
+                        android:textAppearance="@style/raditocx"
+                        />
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp"/>
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:id="@+id/yeshark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@drawable/radio_text_selected"
+                        android:text="نعم , تحتوي علي حرق"
+                        android:gravity="center"
+                        android:button="@color/transparent"
+                        android:background="@drawable/radio_btn_left_selec"
+                        android:textAppearance="@style/raditocx"
+                        />
+
+
+                </RadioGroup>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/mowajaha_view"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginBottom="8sp"
+                        android:layout_gravity="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="إختر شخصياتك"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#AFAFAF"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+
+                    <RelativeLayout
+                        android:visibility="visible"
+                        android:id="@+id/mowajahapost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/cast1"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            app:civ_border_width="1dp"
+                            app:civ_border_color="@color/white"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:tint="@color/white"
+                            android:src="#191C1C"/>
+                        <LinearLayout
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_toStartOf="@+id/cast1"
+                            android:layout_toEndOf="@+id/castetl"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:orientation="vertical"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:gravity="center"
+                                    android:layout_gravity="center" />
+
+
+
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:id="@+id/castetl"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/cast2"
+                                android:layout_alignParentStart="true"
+                                android:layout_centerVertical="true"
+                                app:civ_border_width="1dp"
+                                app:civ_border_color="@color/white"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                app:tint="@color/white"
+                                android:src="#191C1C" />
+
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:id="@+id/morajaa_view"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/cartoon_id_photo"
+                            android:layout_width="114dp"
+                            android:layout_height="210dp"
+                            android:src="#191C1C"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_add"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:tint="#AFAFAF" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/cartoon_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria"
+                        android:text="إختر كرتون او كوميكس"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="14dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginBottom="8sp"
+                            android:layout_gravity="end"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="أكتب منشورك"
+                            android:layout_marginStart="5dp"
+                            android:textColor="#AFAFAF"
+                            android:textStyle="bold"
+                            android:textSize="15dp" />
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            app:boxStrokeColor="@color/white"
+                            app:boxStrokeErrorColor="@color/white"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:hint="منشور جديد"
+                            app:counterEnabled="true"
+                            app:counterTextColor="@color/white"
+
+                            app:counterMaxLength="2000"
+                            android:textColorHint="@color/white"
+                            app:hintTextColor="@color/white"
+                            android:layout_height="match_parent"
+                            >
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/post_nadaria"
+                                android:textAppearance="@style/tabtext"
+                                android:inputType="textMultiLine"
+                                android:maxLength="2000"
+                                android:maxHeight="300dp"
+                                android:textColor="@color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"/>
+
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="visible"
+                    android:layout_margin="20dp"
+                    android:id="@+id/post_view"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:clickable="true"
+                        android:layout_marginTop="11dp"
+                        android:id="@+id/postimag"
+                        app:cardBackgroundColor="#191C1C"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="11dp"
+                        app:strokeColor="#AFAFAF"
+                        app:strokeWidth="0.5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:background="#191B1B"
+                                android:scaleType="centerCrop"
+                                android:id="@+id/imagepost"
+                                android:layout_width="match_parent"
+                                android:layout_height="350dp"/>
+
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/ic_add"
+                                    app:tint="#AFAFAF" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/arabic_kufi"
+                                    android:text="أضف صورة لو تريد"
+                                    android:layout_marginStart="5dp"
+                                    android:textColor="#AFAFAF"
+                                    android:textStyle="bold"
+                                    android:textSize="20dp" />
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="8sp"
+                        android:layout_gravity="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="أكتب منشورك"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#AFAFAF"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        app:boxStrokeColor="@color/white"
+                        app:boxStrokeErrorColor="@color/white"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:hint="منشور جديد"
+                        app:counterEnabled="true"
+                        app:counterTextColor="@color/white"
+
+                        app:counterMaxLength="2000"
+                        android:textColorHint="@color/white"
+                        app:hintTextColor="@color/white"
+                        android:layout_height="match_parent"
+                        >
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/contenttxtpost"
+                            android:textAppearance="@style/tabtext"
+                            android:inputType="textMultiLine"
+                            android:maxLength="2000"
+                            android:maxHeight="300dp"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_margin="20dp"
+                    android:id="@+id/addpostbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/btnflwolbg"
+                    android:foreground="@drawable/click_animation_round"
+                    >
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="نشر"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/bg4"
+                            android:textStyle="bold"
+                            android:textSize="15dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/waitbro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/cairobold"
+            android:text="سيتم قبول منشورك بعد المراجعة , النشر سيكون متاح بعد ساعة "
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+
+
+
+

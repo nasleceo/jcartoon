@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gotocomments"
+            android:layout_marginStart="10dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/white"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="@color/white"
+            android:src="@drawable/fin_profile" />
+
+        <LinearLayout
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/comment_chat"
+            android:id="@+id/addratebtn"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+
+            <LinearLayout
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="23dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:id="@+id/fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alexandria"
+                    android:text="أنس المتنيب"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="11dp" />
+
+                <ImageView
+                    android:id="@+id/show_verefic"
+                    android:layout_width="12dp"
+                    android:visibility="gone"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:src="@drawable/verified" />
+            </LinearLayout>
+
+            <com.hendraanggrian.appcompat.socialview.widget.SocialTextView
+                android:id="@+id/content"
+                android:gravity="start"
+                android:visibility="gone"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="12sp"
+                android:maxLength="2000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairoregular"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <LinearLayout
+                android:id="@+id/showhark"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="start"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairobold"
+                    android:text="التعليق قد يحتوي علي حرق , أظهره"
+                    android:textColor="#F3D34E"
+                    android:textStyle="bold"
+                    android:textSize="11dp" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fire" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="100dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+
+        <TextView
+            android:id="@+id/likecomt"
+            android:fontFamily="@font/cairobold"
+            android:textSize="11dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="( 0 ) أعجبني"/>
+
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/replaytxt"
+            android:fontFamily="@font/cairobold"
+            android:textSize="11dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="رد"/>
+
+        <TextView
+            android:id="@+id/deletcoment"
+            android:fontFamily="@font/cairobold"
+            android:textSize="11dp"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حدف"/>
+
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/editcoment"
+            android:visibility="gone"
+            android:fontFamily="@font/cairobold"
+            android:textSize="11dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تعديل"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

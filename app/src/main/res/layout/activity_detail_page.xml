@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/bg4">
+
+
+
+    <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll_episodes"
+        android:layout_above="@+id/navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg4"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:id="@+id/showall"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg4"
+                android:orientation="vertical"
+                android:descendantFocusability="blocksDescendants">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:id="@+id/anime_cover"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <ImageView
+                        android:alpha=".3"
+                        android:src="@drawable/bgbottomhome"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_alignParentTop="true"
+                        android:rotation="180"
+                        android:src="@drawable/gradient_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+
+
+                    <ImageView
+                        android:layout_marginBottom="-5dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/gradient_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"/>
+
+                    <ImageView
+                        android:alpha=".92"
+                        android:src="@color/bg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+
+
+
+                </RelativeLayout>
+               <RelativeLayout
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="-230dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <androidx.cardview.widget.CardView
+                       app:cardElevation="0dp"
+                       android:background="@color/bgstatus"
+                       app:cardCornerRadius="5dp"
+                       android:layout_centerHorizontal="true"
+                       android:layout_alignParentEnd="true"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                             android:id="@+id/anime_poster"
+                           android:layout_width="140dp"
+                           android:layout_height="200dp"
+                           android:src="@color/black_100"
+                           android:scaleType="centerCrop"/>
+                   </androidx.cardview.widget.CardView>
+
+               </RelativeLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/drama_name"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+               <LinearLayout
+                   android:layout_marginTop="10dp"
+                   android:padding="3dp"
+                   android:id="@+id/ee"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+
+                   <RelativeLayout
+
+                       android:elevation="5dp"
+                       android:id="@+id/goepisode"
+                       android:layout_width="wrap_content"
+                       android:layout_height="40dp">
+
+                       <RelativeLayout
+                           android:foreground="@drawable/click_animation_round"
+                           android:layout_marginEnd="20dp"
+                           android:layout_marginStart="20dp"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent">
+
+                           <ImageView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:backgroundTint="#27272a"
+                               android:background="@drawable/bt_background"/>
+
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_centerInParent="true"
+                               android:gravity="center"
+                               android:orientation="horizontal">
+
+                               <TextView
+
+                                   android:id="@+id/epeorfilmtxt"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:fontFamily="@font/arabic_kufi"
+                                   android:text="الحلقات"
+                                   android:textColor="@color/white"
+                                   android:textSize="13dp"
+                                   android:textStyle="bold" />
+
+                               <ImageView
+                                   android:layout_width="22dp"
+                                   android:layout_height="22dp"
+                                   android:layout_centerVertical="true"
+                                   android:layout_marginStart="4dp"
+                                   android:layout_marginTop="6dp"
+                                   android:layout_marginBottom="6dp"
+                                   android:layout_toEndOf="@+id/epeorfilmtxt"
+                                   android:padding="4.2dp"
+                                   android:src="@drawable/epeplay"
+                                   app:tint="@color/white" />
+
+
+                           </LinearLayout>
+
+                       </RelativeLayout>
+
+                   </RelativeLayout>
+
+                   <LinearLayout
+                       android:gravity="center"
+                       android:layout_weight="1"
+                       android:layout_marginEnd="20dp"
+                       android:layout_marginStart="20dp"
+                       android:background="@drawable/bg_more"
+                       android:layout_marginTop="15dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+
+                       <LinearLayout
+                           android:id="@+id/addtolater"
+                           android:layout_weight="1"
+                           android:gravity="center"
+                           android:layout_margin="10dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:id="@+id/later"
+                               android:src="@drawable/timepast"
+                               android:layout_width="25dp"
+                               app:tint="@color/white"
+                               android:layout_height="25dp"/>
+
+                           <TextView
+                               android:id="@+id/addtolatertxt"
+                               android:layout_marginTop="4dp"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:fontFamily="@font/arabic_kufi"
+                               android:text=" إضافة الى \nالمشاهدة لاحقا"
+                               android:textColor="@color/white"
+                               android:textSize="8dp"
+                               android:gravity="center"
+                               android:textStyle="bold" />
+
+
+
+                       </LinearLayout>
+                       <LinearLayout
+                           android:id="@+id/addtowatchnow"
+                           android:layout_weight="1"
+                           android:gravity="center"
+                           android:layout_margin="10dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:id="@+id/eye"
+                               android:src="@drawable/eye"
+                               app:tint="@color/white"
+                               android:layout_width="25dp"
+                               android:layout_height="30dp"/>
+
+                           <TextView
+                               android:id="@+id/watchtxt"
+                               android:layout_marginTop="4dp"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:fontFamily="@font/arabic_kufi"
+                               android:text=" إضافة الى \nالمشاهدة حاليا"
+                               android:textColor="@color/white"
+                               android:textSize="8dp"
+                               android:gravity="center"
+                               android:textStyle="bold" />
+
+
+
+                       </LinearLayout>
+                       <LinearLayout
+                           android:id="@+id/likeit"
+                           android:layout_weight="1"
+                           android:gravity="center"
+                           android:layout_margin="10dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:id="@+id/changelike"
+                               android:src="@drawable/heart"
+                               android:layout_width="25dp"
+                               app:tint="@color/white"
+                               android:layout_height="25dp"/>
+
+                           <TextView
+                               android:id="@+id/liketxt"
+                               android:layout_marginTop="4dp"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:fontFamily="@font/arabic_kufi"
+                               android:text="إضافة الى\nالمفضلة"
+                               android:textColor="@color/white"
+                               android:textSize="8dp"
+                               android:gravity="center"
+                               android:textStyle="bold" />
+
+
+
+                       </LinearLayout>
+
+                   </LinearLayout>
+
+                   <RelativeLayout
+
+                       android:layout_marginTop="10dp"
+                       android:layout_marginEnd="20dp"
+                       android:layout_marginStart="20dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="40dp"
+                       android:foreground="@drawable/click_animation_round"
+                       android:clickable="true"
+                       android:id="@+id/addtomylistview"
+                       android:visibility="gone"
+                       >
+
+                       <RelativeLayout
+
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent">
+
+                           <ImageView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:src="@drawable/bt_background_stroke_white"/>
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:fontFamily="@font/cairobold"
+                               android:gravity="center"
+                               android:text="اضافة الى قائمة المفضلة"
+                               android:textColor="@color/white"
+                               android:textSize="15dp" />
+
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_alignParentRight="true"
+                               android:layout_marginRight="10dp"
+                               android:src="@drawable/ic_not_favorited"
+                               app:tint="@color/white" />
+
+                       </RelativeLayout>
+
+                   </RelativeLayout>
+                   <RelativeLayout
+                       android:layout_marginTop="10dp"
+                       android:layout_marginEnd="20dp"
+                       android:layout_marginStart="20dp"
+                       android:layout_width="match_parent"
+                       android:layout_height="40dp"
+                       android:foreground="@drawable/click_animation_round"
+                       android:clickable="true"
+                       android:id="@+id/removetomylistview"
+                       android:visibility="gone">
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent">
+
+                           <ImageView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:src="@drawable/btn_webcast"/>
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:fontFamily="@font/cairobold"
+                               android:gravity="center"
+                               android:text="إزالة من قائمة المفضلة"
+                               android:textColor="@color/white"
+                               android:textSize="15dp" />
+
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_alignParentRight="true"
+                               android:layout_marginRight="10dp"
+                               android:src="@drawable/ic_favorited"
+                               app:tint="@color/white" />
+
+                       </RelativeLayout>
+
+                   </RelativeLayout>
+
+                   <TextView
+                       android:gravity="center"
+                       android:layout_margin="20dp"
+                       android:id="@+id/anime_story"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/white"
+                       android:textSize="13dp"
+                       android:layout_marginBottom="10dp"
+                       android:fontFamily="@font/arabic_kufi"/>
+
+                   <LinearLayout
+                       android:gravity="center"
+                       android:layout_weight="1"
+                       android:layout_marginEnd="20dp"
+                       android:layout_marginStart="20dp"
+                       android:background="@drawable/bg_more"
+                       android:layout_marginTop="8dp"
+                       android:orientation="vertical"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+
+                       <TextView
+
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="right"
+                           android:layout_marginStart="20dp"
+                           android:layout_marginTop="20dp"
+                           android:layout_marginEnd="20dp"
+                           android:background="@drawable/textbg"
+                           android:fontFamily="@font/cairobold"
+                           android:gravity="right"
+                           android:paddingStart="15dp"
+                           android:paddingTop="3dp"
+                           android:paddingEnd="15dp"
+                           android:paddingBottom="3dp"
+                           android:text="معلومات"
+                           android:textColor="@color/white"
+                           android:textAllCaps="true"
+                           android:textSize="14dp"
+                           android:textStyle="bold"
+                           app:layout_constraintEnd_toEndOf="@+id/poster"
+                           app:layout_constraintStart_toStartOf="@+id/poster"
+                           app:layout_constraintTop_toBottomOf="@+id/poster" />
+
+                       <LinearLayout
+                           android:layout_alignParentBottom="true"
+                           android:layout_marginStart="5dp"
+                           android:layout_marginEnd="5dp"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="vertical">
+
+
+                           <RelativeLayout
+                               android:gravity="bottom"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content">
+
+                               <TextView
+                                   android:id="@+id/genertxt"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_gravity="start"
+                                   android:layout_marginStart="20dp"
+                                   android:layout_marginTop="5dp"
+                                   android:layout_marginEnd="20dp"
+                                   android:layout_marginBottom="5dp"
+                                   android:fontFamily="@font/arabic_kufi"
+                                   android:gravity="start"
+                                   android:textColor="@color/white"
+                                   android:textSize="13dp" />
+                           </RelativeLayout>
+
+
+
+                       </LinearLayout>
+
+                   </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@color/bgstatus"/>
+    <ImageView
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/black"/>
+
+    <ImageView
+        android:id="@+id/backch"
+        android:visibility="gone"
+        android:theme="@style/MyRipple"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_arrow_back"
+        app:tint="@color/white" />
+</RelativeLayout>

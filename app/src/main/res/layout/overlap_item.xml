@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="start"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/show_profile"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:civ_border_width="1dp"
+        app:civ_border_overlay="true"
+        app:civ_border_color="@color/white"
+        android:src="@drawable/fin_profile" />
+
+
+</LinearLayout>

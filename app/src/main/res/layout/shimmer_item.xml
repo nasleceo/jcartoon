@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        >
+        <RelativeLayout
+            android:background="@color/darkbtn"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+
+            <ImageView
+                android:id="@+id/anime_cover"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bgdark">
+
+            <TextView
+                android:id="@+id/anime_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"
+                android:ellipsize="end"
+                android:background="@color/darkbtn"
+                android:gravity="start"
+                android:fontFamily="@font/poppins_bold"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

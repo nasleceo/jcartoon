@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:fillViewport="true"
+    android:background="@color/bg4"
+    android:id="@+id/scrollView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@drawable/gradient_activiti"
+        android:id="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:id="@+id/loodloh"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairobold"
+                    android:text="مجتمع جي كرتون"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="23dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/addpost"
+                    android:elevation="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp">
+
+
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:background="@drawable/bg_likebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginBottom="6dp"
+                            android:layout_toEndOf="@+id/epeorfilmtxt"
+                            android:padding="4.2dp"
+                            android:src="@drawable/ic_add"
+                            app:tint="@color/white" />
+
+                        <TextView
+
+                            android:id="@+id/epeorfilmtxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="إضافة منشور"
+                            android:layout_marginEnd="8dp"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <HorizontalScrollView
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:layoutDirection="rtl"
+            android:id="@+id/rltslid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/grouiprado"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp">
+
+                <RadioButton
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:id="@+id/manxorat_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="أخر المنشورات"
+                    android:gravity="center"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:checked="true"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radio_btn_left_selec"
+                    android:textAppearance="@style/tabtext"
+                    />
+                <RadioButton
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+
+                    android:id="@+id/pupaler_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="أكثر إعجابا"
+                    android:gravity="center"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radio_btn_left_selec"
+                    android:textAppearance="@style/tabtext"
+                    />
+                <RadioButton
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+
+                    android:id="@+id/trend_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="الترند"
+                    android:gravity="center"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radio_btn_left_selec"
+                    android:textAppearance="@style/tabtext"
+                    />
+                <RadioButton
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginStart="10dp"
+
+                    android:id="@+id/random_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/radio_text_selected"
+                    android:text="عشوائية"
+                    android:gravity="center"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radio_btn_left_selec"
+                    android:textAppearance="@style/tabtext"
+                    />
+
+            </RadioGroup>
+
+
+
+
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_below="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/post_rv"
+                    tools:listitem="@layout/post_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+                <ProgressBar
+                    android:indeterminateTint="@color/white"
+                    android:visibility="visible"
+                    android:id="@+id/noresolttxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="5dp" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+

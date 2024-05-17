@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:fillViewport="true"
+    android:background="@color/bg4"
+    android:id="@+id/scrollView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_activiti"
+        android:id="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.github.vkay94.dtpv.DoubleTapPlayerView
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:animateLayoutChanges="true"
+            android:background="@android:color/black"
+            app:controller_layout_id="@layout/player_controlls"
+            app:dtpv_controller="@id/ytOverlay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:show_buffering="always"/>
+
+        <com.github.vkay94.dtpv.youtube.YouTubeOverlay
+            android:id="@+id/ytOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="#77000000"
+            android:visibility="invisible"
+            app:yt_playerView="@id/player_view"
+            tools:visibility="visible" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+            android:layout_above="@+id/addcomant_rtl"
+            android:layout_below="@+id/relat_appbar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:visibility="visible"
+                android:orientation="vertical"
+                android:id="@+id/allview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/message_rv"
+                    android:orientation="horizontal"
+                    tools:listitem="@layout/chat_item"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/addcomant_rtl"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <RelativeLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_alignParentStart="true"
+                android:id="@+id/addratebtn"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:id="@+id/email_li"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        app:boxStrokeColor="@color/white"
+                        android:id="@+id/textinputacc"
+                        app:boxStrokeErrorColor="@color/white"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        app:endIconMode="custom"
+                        app:endIconDrawable="@drawable/sendss"
+                        app:endIconTint="@color/white"
+                        app:counterMaxLength="2000"
+                        android:textColorHint="@color/white"
+                        app:hintTextColor="@color/white"
+                        android:layout_height="match_parent"
+                        >
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/sendcomentedit"
+                            android:textAppearance="@style/tabtext"
+                            android:inputType="text"
+                            android:maxLength="2000"
+                            android:windowSoftInputMode="adjustResize"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/bg4"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/room_corn"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/count_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:ellipsize="end"
+            android:fontFamily="@font/alexandria"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="0"
+            android:textColor="#BABABA"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+

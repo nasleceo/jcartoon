@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:fillViewport="true"
+    android:background="@color/bg4"
+    android:id="@+id/scrollView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:background="@drawable/gradient_activiti"
+        android:id="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="بحث جي كرتون"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="23dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/relat_appbar"
+        android:orientation="vertical"
+        android:id="@+id/rltslidss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:elevation="30dp"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeErrorColor="@color/white"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:counterMaxLength="40"
+            android:hint="إبحث هنا"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/white"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
+            app:startIconTint="@color/white"
+            android:paddingStart="5dp"
+            app:startIconDrawable="@drawable/ic_search"
+            android:layout_height="wrap_content"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/searchinput"
+                android:maxLength="40"
+                android:textAppearance="@style/tabtext"
+                android:inputType="text"
+                android:imeOptions="actionSearch"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <RadioGroup
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:layoutDirection="rtl"
+            android:id="@+id/grouiprado"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+            <RadioButton
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/tv_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="المسلسلات"
+                android:gravity="center"
+                android:layout_marginEnd="4dp"
+
+                android:textColor="@drawable/radio_text_selected"
+                android:checked="true"
+                android:button="@color/transparent"
+                android:background="@drawable/radio_btn_left_selec"
+                android:textAppearance="@style/tabtext"
+                />
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/movie_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/radio_text_selected"
+                android:text="الأفلام"
+
+                android:gravity="center"
+                android:button="@color/transparent"
+                android:background="@drawable/radio_btn_left_selec"
+                android:textAppearance="@style/tabtext"
+                />
+            <RadioButton
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/comic_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/radio_text_selected"
+                android:text="الكوميكس"
+                android:gravity="center"
+                android:button="@color/transparent"
+                android:background="@drawable/radio_btn_left_selec"
+                android:textAppearance="@style/tabtext"
+                />
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/arabic_kufi"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:background="@drawable/ads_bg"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="إعلان"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:background="@drawable/ads_bg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/noresult"
+        android:fontFamily="@font/almaria_bold"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إبحث عن ماتريد ..."
+        tools:ignore="HardcodedText" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/rltslidss"
+        android:nestedScrollingEnabled="false"
+        android:id="@+id/recentepisod_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</LinearLayout>
+
+
+
+

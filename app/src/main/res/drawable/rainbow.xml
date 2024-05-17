@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="600dp" android:height="600dp" />
+        </shape>
+    </item>
+
+    <item android:top="-50dp" android:bottom="-150dp" android:start="-500dp">
+        <rotate android:fromDegrees="90">
+            <shape android:shape="line">
+                <stroke android:color="@color/circle_red" android:width="100dp" />
+            </shape>
+        </rotate>
+    </item>
+
+
+    <item android:top="-50dp" android:bottom="-50dp" android:start="-300dp">
+        <rotate android:fromDegrees="90">
+            <shape android:shape="line">
+                <stroke android:color="@color/circle_orange" android:width="100dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:top="-50dp" android:bottom="-50dp" android:start="-100dp">
+        <rotate android:fromDegrees="90">
+            <shape android:shape="line">
+                <stroke android:color="@color/circle_yellow" android:width="100dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:top="-50dp" android:bottom="-50dp" android:end="-100dp">
+        <rotate android:fromDegrees="90">
+            <shape android:shape="line">
+                <stroke android:color="@color/circle_green" android:width="100dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:top="-50dp" android:bottom="-50dp" android:end="-300dp">
+        <rotate android:fromDegrees="90">
+            <shape android:shape="line">
+                <stroke android:color="@color/circle_teal" android:width="100dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:top="-50dp" android:bottom="-50dp" android:end="-500dp">
+        <rotate android:fromDegrees="90">
+            <shape android:shape="line">
+                <stroke android:color="@color/circle_blue" android:width="100dp" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

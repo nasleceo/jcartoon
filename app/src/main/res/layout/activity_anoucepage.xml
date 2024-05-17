@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgdark"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:background="@color/amoled_primary_color"
+        android:id="@+id/appvar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arabic_kufi"
+            android:text="إعلان"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/appvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:autoLink="all"
+            android:fontFamily="@font/arabic_kufi"
+            android:textColor="@color/white"
+            android:id="@+id/message"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/bg4"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairobold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp"
+        android:text="تقيم جي كرتون"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <com.xw.repo.BubbleSeekBar
+        android:layout_below="@+id/desc"
+        android:id="@+id/bubbleSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:bsb_auto_adjust_section_mark="true"
+        app:bsb_always_show_bubble="false"
+        app:bsb_hide_bubble="true"
+        app:bsb_max="10"
+        app:bsb_min="0"
+        app:bsb_show_progress_in_float="true"
+        app:bsb_second_track_color="@color/white"
+        app:bsb_section_count="10"
+        app:bsb_section_text_position="below_section_mark"
+        app:bsb_show_section_mark="true"
+        app:bsb_show_section_text="true"
+        app:bsb_show_thumb_text="true"
+        app:bsb_thumb_text_size="18sp"
+        app:bsb_touch_to_seek="true"
+        app:bsb_track_color="#656262"
+        />
+
+    <TextView
+        android:id="@+id/ratbarcount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/cairobold"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="0/10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bubbleSeekBar"/>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_below="@+id/ratbarcount"
+        android:id="@+id/loginbtn"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/gotosignin"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:background="@drawable/btnflwolbg_copy"
+            android:foreground="@drawable/click_animation_round"
+            >
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="إضافة تقيم"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="12dp" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

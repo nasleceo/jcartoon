@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fream"
+        android:background="@color/bg4"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/navi"
+        android:layout_height="match_parent"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navi"
+        android:layout_above="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/bg4"
+        app:itemTextAppearanceActive="@style/TextAppearanceActive"
+        app:itemTextAppearanceInactive="@style/TextAppearanceInactive"
+        app:itemIconSize="19dp"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        app:labelVisibilityMode="labeled"
+        app:elevation="0dp"
+        app:menu="@menu/menu_bottom_navigation_bar" />
+
+
+    <ImageView
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/transparent"
+        android:visibility="gone"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg4"/>
+</RelativeLayout>

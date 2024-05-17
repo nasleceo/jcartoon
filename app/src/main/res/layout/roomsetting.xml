@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+
+
+
+    <LinearLayout
+        android:background="@drawable/quality_selector_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إعدادات الغرفة"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cairobold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bt_background_solid"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="نسخ رمز الغرفة"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/cairobold"
+                        android:gravity="center"
+                        android:textSize="15dp"/>
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/copy"
+                        app:tint="@color/black"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/copycode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/click_animation_round" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/linlag"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/ttxradd"
+                    android:layout_marginBottom="8sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="العدد الأقصى في الغرفة"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#AFAFAF"
+                    android:textStyle="bold"
+                    android:textSize="12dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/ttxradd"
+                    android:id="@+id/nbreplace"
+                    android:layout_centerVertical="true"
+                    app:boxStrokeColor="@color/white"
+                    app:boxStrokeWidth=".5dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_height="wrap_content">
+
+
+                    <AutoCompleteTextView
+                        android:id="@+id/menuoftypes"
+                        android:inputType="none"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

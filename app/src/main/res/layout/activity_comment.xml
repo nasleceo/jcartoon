@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/refreshthis"
+    android:layoutDirection="ltr"
+
+    android:layout_height="match_parent"
+    android:background="#303032">
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121213">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#101010"
+            android:id="@+id/constraint_layout"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:theme="@style/MyRipple"
+                android:background="@drawable/round_ripple"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="9dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/title_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="36dp"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_toEndOf="@id/back"
+                android:text="Comments"
+                android:textAllCaps="true"
+                android:textColor="@color/red"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/constraint_layout"
+            tools:listitem="@layout/row_comt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <RelativeLayout
+            android:id="@+id/com_sec"
+            android:background="#1C1C1C"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:id="@+id/le_burn"
+                android:visibility="gone"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginEnd="26dp"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_toEndOf="@id/back"
+                    android:text="يحتوي علي حرق"
+                    android:textAllCaps="true"
+                    android:textColor="@color/red"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+                <CheckBox
+                    android:id="@+id/chakedisburn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"/>
+
+
+
+            </LinearLayout>
+
+
+            <ImageButton
+                android:layout_below="@+id/le_burn"
+                android:id="@+id/imageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_ripple"
+                android:padding="5dp"
+                app:tint="@color/white"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_baseline_send_24"
+                />
+
+            <EditText
+                android:id="@+id/editcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/le_burn"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:maxLength="400"
+                android:maxHeight="100dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_toStartOf="@+id/imageButton"
+                android:background="@drawable/editbg"
+                android:fontFamily="@font/arabic_kufi"
+                android:hint="إضافة تعليق"
+                android:padding="13dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:id="@+id/allre"
+                android:layout_below="@+id/editcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:id="@+id/textandnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/comments_counter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_toEndOf="@id/back"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="0/400"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/nocomments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/arabic_kufi"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:text="لا يوجد تعليقات "
+            android:textAllCaps="true"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/white"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

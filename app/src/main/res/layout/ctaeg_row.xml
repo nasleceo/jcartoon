@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="65dp"
+    android:layoutDirection="ltr"
+    android:layout_height="65dp"
+    android:clickable="true"
+    app:cardBackgroundColor="#262932"
+    app:cardMaxElevation="8dp"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="2dp"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cat_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <TextView
+                android:id="@+id/cat_name"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Romance"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

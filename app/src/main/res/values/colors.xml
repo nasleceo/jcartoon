@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgwith">#FFFFFF</color>
+    <color name="bgbar">#2196F3</color>
+
+    <color name="bg1">#77A0B1</color>
+    <color name="bg2">#4a4844</color>
+    <color name="bg3">#4B5C78</color>
+    <color name="bg_bottombar">#4a4844</color>
+    <color name="bg4">#121414</color>
+    <color name="bg5">#1E2222</color>
+    <color name="xafaf">#001E2222</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#03A9F4</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#515151</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FFF</color>
+    <color name="barstut">#03A9F4</color>
+    <color name="background">#FAFAFA</color>
+
+    <color name="bgstatus">#1B1B1B</color>
+    <color name="my_statusbar_color">#121212</color>
+
+    <color name="bgdark">#141414</color>
+    <color name="darkfew">#262932</color>
+    <color name="darkbtn">#232324</color>
+    <!--
+        <color name="teal_700">#03A9F4</color>
+    -->
+
+    <color name="green_100">#03FB9B</color>
+    <color name="black_100">#252525</color>
+    <color name="black_200">#404040</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+
+    <!--    news image background colors -->
+    <color name="purple">#905EE8</color>
+    <color name="blue">#008DFC</color>
+    <color name="yellow">#FED149</color>
+
+
+    <!--    // dark theme colors-->
+    <color name="dark_primary_color">#111113</color>
+    <color name="dark_primary_dark_color">#111113</color>
+    <color name="dark_bg_color">#111113</color>
+    <color name="dark_text_color">#fff</color>
+    <color name="dark_icon_tint_color">#A2A2A2</color>
+
+    <!--    // light theme colors-->
+    <color name="light_text_color" >#111113</color>
+    <color name="light_bg_color" >#FFFFFF</color>
+
+    <!--    // Amoled theme colors-->
+    <color name="amoled_primary_color" >#111113</color>
+    <color name="amoled_primary_dark_color" >#111113</color>
+    <color name="amoled_bg_color" >#111113</color>
+
+
+
+    <!-- Colors For Drawable Buttons -->
+
+    <color name="startColor">#00c8a1</color>
+    <color name="centerColor">#00b4ca</color>
+    <color name="endColor">#009ff3</color>
+    <color name="overlay_dark_40">#B3000000</color>
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="bottomnavigationbgcolor">#121212</color>
+    <color name="fragment_content_detail_stroke">#1a000000</color>
+    <color name="grey_11">#e6e6e6</color>
+    <color name="grey_60">#666666</color>
+    <color name="transparent">#00000000</color>
+    <color name="fragment_content_detail_overlay_end">#1a1a1a</color>
+    <color name="fragment_content_detail_overlay_center">#6626262d</color>
+    <color name="fragment_content_detail_overlay_start">#0026262d</color>
+    <color name="fragment_featured_end">#1a1a1a</color>
+    <color name="fragment_featured_overlay_center">#6626262d</color>
+    <color name="fragment_featured_overlay_start">#0026262d</color>
+    <color name="orange">#ff501a</color>
+    <color name="app_background">#232325</color>
+    <color name="greyhome">#26272c</color>
+    <color name="search_background_input">#333333</color>
+    <color name="main_color">@color/red</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="grey_3">#f7f7f7</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_1000">#1a1a1a</color>
+    <color name="grey_1100">#80070707</color>
+    <color name="golden_gate">#00b4ca</color>
+    <color name="red_A700">#D50000</color>
+    <color name="player_controls_overlay">#b226262d</color>
+    <color name="tv_auto_play_overlay_center">#99191919</color>
+    <color name="tv_auto_play_overlay_end">#cc191919</color>
+    <color name="tv_auto_play_overlay_start">#4c191919</color>
+    <color name="player_controls_progress_background">#33ffffff</color>
+    <color name="player_controls_secondary_progress_background">#4cffffff</color>
+    <color name="tv_player_white">#ffffffff</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="gray">#333333</color>
+    <color name="light_green_400">#9CCC65</color>
+    <!-- Queue -->
+    <color name="bg_item_normal_state">#fff0f0f0</color>
+    <color name="bg_item_upcoming_state">@color/primary</color>
+    <color name="bg_item_normal_pressed_state">#ffe0e0e0</color>
+
+    <color name="primary">#03A9F4</color>
+
+    <!-- Expanded Controls -->
+    <color name="black_subtitles_background">#64000000</color>
+    <color name="green_subtitles_background">#641E9618</color>
+    <color name="red_subtitles_background">#64D50000</color>
+    <color name="yellow_subtitles_background">#64f9930d</color>
+    <color name="orange2">#fff9930d</color>
+    <color name="grey_1200">#bf1a1a1a</color>
+
+
+
+    <color name="primary_light">#80DEEA</color>
+    <color name="accent">#00B0FF</color>
+    <color name="accent_dark">#058DDB</color>
+    <color name="accent_light">#82D7FF</color>
+    <color name="status_bar">#E0E0E0</color>
+    <color name="toolbar">#FFFFFF</color>
+    <color name="toolbar_dark">#272727</color>
+    <color name="dark_theme_status_bar">#212121</color>
+    <color name="gray_dark">#727272</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="divider_dark">#202020</color>
+    <color name="background_dark">#121212</color>
+    <color name="foreground">#FFFFFF</color>
+    <color name="foreground_dark">#2D2D2D</color>
+    <color name="background_dialog">#FFFFFF</color>
+    <color name="background_dialog_dark">#373737</color>
+    <color name="background_dialog_black">#121212</color>
+    <color name="text_primary">#DE000000</color>
+    <color name="text_primary_inverse">#FFFFFF</color>
+    <color name="selectable">#E0F7FA</color>
+    <color name="selectable_dark">#113C44</color>
+    <color name="selectable_drawer">#E0F7FA</color>
+    <color name="selectable_drawer_dark">#354E54</color>
+    <color name="error">#B00020</color>
+    <color name="error_light">#CF6679</color>
+    <color name="warning">#FFD600</color>
+    <color name="warning_light">#FFF394</color>
+    <color name="ok">#20B000</color>
+    <color name="ok_light">#9CD791</color>
+    <color name="circle_grey">#5C5C5C</color>
+
+
+
+    <color name="darkest">#222222</color>
+    <color name="darkest_semitransparent">#ce222222</color>
+    <color name="darker">#333333</color>
+
+    <color name="lightest">#ffffff</color>
+    <color name="lighter">#dddddd</color>
+
+    <!--
+        <color name="circle_red">#F44336</color>
+        <color name="circle_green">#4CAF50</color>
+        <color name="circle_blue">#0bbcc9</color>
+        <color name="circle_orange">#F56D0C</color>
+        <color name="circle_yellow">#E2F54E</color>
+    -->
+    <color name="circle_red">#F94144</color>
+    <color name="circle_orange">#F8961E</color>
+    <color name="circle_yellow">#F9C74F</color>
+    <color name="circle_green">#90BE6D</color>
+    <color name="circle_teal">#4D908E</color>
+    <color name="circle_blue">#277DA1</color>
+
+
+    <color name="iconMaskColor">#46485f</color>
+    <color name="iconMaskStrokeColor">#00ffffff</color>
+    <!--    <color name="iconFillColor">#ffffff</color>-->
+    <color name="iconFillColor">#3DDC84</color>
+    <color name="iconStrokeColor">#000000</color>
+    <color name="gray_main">@color/red</color>
+
+    <color name="splashScreenColor">#F2F2F0</color>
+    <color name="splashIconMaskColor">#E9620B</color>
+    <color name="splashActivityColor">#03DAC5</color>
+    <color name="mainColor">#3700B3</color>
+
+    <color name="newSplashScreenColor">#f6f5ec</color>
+    <color name="newSplashIconMaskColor">@color/iconMaskColor</color>
+
+    <color name="newAdScreenColor">@color/iconMaskColor</color>
+    <color name="newAdScreenBtnBgColor">@color/colorPrimary</color>
+
+    <!-- Colors For Drawable Buttons -->
+
+    <color name="overlay_dark_20">#33000000</color>
+
+
+</resources>

@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">جي كرتون</string>
+
+    <string-array name="players">
+        <item>APP PLAYER</item>
+        <item>MX Player</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="downloads">
+        <item>INSIDE DOWNLOAD</item>
+        <item>ADM</item>
+    </string-array>
+
+    <string name="delete_title"> هل تريد حدفه ؟</string>
+    <string name="percent_progress" translatable="false">%1$d%%</string>
+    <string name="download_eta_sec" translatable="false">%1$ds left</string>
+    <string name="download_eta_min" translatable="false">%1$dm %2$ds left</string>
+    <string name="download_eta_hrs" translatable="false">%1$dh %2$dm %3$ds left</string>
+    <string name="download_speed_bytes" translatable="false">%1$d B/s</string>
+    <string name="download_speed_kb" translatable="false">%1$s KB/s</string>
+    <string name="download_speed_mb" translatable="false">%1$s MB/s</string>
+
+
+    <!-- Edit These For your Ad Network -->
+    <string name="admob_application_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string> <!-- AdMob -->
+    <string name="applovin_sdk_key" translatable="false">XJN4GGfoouR0ry-ZzbBJdb-Vez7ImciQJtenhxKkZ06qryKJvDaM_GGGMbyTF-7z9-MhihRO-cHCeZc2lJVdc_</string> <!-- Applovin -->
+
+
+    <!--Change These-->
+    <string name="web_client_id" translatable="false">AIzaSyARpYkIJD4bWZ0OBym9w5ChoRQZG31x-f0</string>
+    <string name="facebook_app_id" translatable="false">722588169504097</string>
+    <string name="facebook_client_token" translatable="false">229b9c18e4617f966d9c2a390e8c138d</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1234</string>
+
+
+    <string name="track_selection_title">Video Quality</string>
+    <string name="exo_track_selection_title_video">فيديو</string>
+    <string name="exo_track_selection_title_audio">صوة</string>
+    <string name="exo_track_selection_title_text">نص</string>
+
+
+    <string name="startapp_app_id" translatable="false">201688868</string>
+    <string name="startapp_id" translatable="false">210473406</string>
+    <string name="adUnitId_Applovin" translatable="false">b238004a862d5e2a</string>
+
+
+    <string name="telegram" translatable="false">https://t.me/jycartoon</string>
+    <string name="facebookss" translatable="false">https://www.facebook.com/jycartoon/</string>
+    <string name="site" translatable="false">https://jcartoon.com/</string>
+
+
+    <!--all strings Strings-->
+    <!--Botton Navigation Strings-->
+    <string name="home_nav">الرئيسية</string>
+    <string name="series_nav">كرتون</string>
+    <string name="movies_nav">البحث</string>
+    <string name="search_nav">مجتمع</string>
+    <string name="profil_nav">المزيد</string>
+
+
+    <!--all strings Strings-->
+    <string name="movie_tab">أفلام</string>
+    <string name="tv_tab">مسلسلات</string>
+    <string name="vpn_detected">اغلق الفي بي ان!!</string>
+    <string name="nodownload">لا توجد تحميلات</string>
+    <string name="close_vpn">اغلقه واعد تشغيل التطبيق</string>
+    <string name="counitnu_watch">إستمرار المشاهدة</string>
+    <string name="Trending_This_Week">أكثر المشاهدة هدا الأسبوع</string>
+    <string name="recommended_for_you">لأجلك</string>
+    <string name="Most_Watched">الأكثر مشاهدة</string>
+    <string name="New_This_Year">جديد هد العام</string>
+    <string name="Anouncce">إعلان</string>
+    <string name="Server">سيرفر</string>
+    <string name="Episodes">الحلقات</string>
+    <string name="Seasons">المواسم</string>
+    <string name="More_Like_This">المزيد من هدا</string>
+    <string name="Cast">الشخصيات</string>
+    <string name="My_List">قائمتي</string>
+    <string name="Change_Language">إختر لفتك</string>
+    <string name="Languages">اللغات</string>
+    <string name="next_episode">الحلقة التالية</string>
+    <string name="Email">الإيميل</string>
+    <string name="Comment">أضف تعليقا</string>
+    <string name="Password">الباسورد</string>
+    <string name="LOGIN">تسجيل الدخول</string>
+    <string name="OR">أو</string>
+    <string name="LOGOUT">تسجيل الخروج</string>
+    <string name="makeone">إنشاء حساب جديد</string>
+    <string name="full_name">الإسم الكامل</string>
+    <string name="next">التالي</string>
+    <string name="username">username</string>
+    <string name="Create_Account">إنشاء حساب</string>
+
+
+    <string name="exit">إضغط مرتين للخروج</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+    <!-- ADS NETWORKS -->
+
+
+    <!-- Don't Change -->
+    <string name="applovin" translatable="false">AppLovin</string>
+
+    <!-- Don't Change -->
+    <string name="appnext" translatable="false">AppNext</string>
+
+    <!-- Don't Change -->
+    <string name="ironsource" translatable="false">Ironsource</string>
+
+    <!-- Don't Change -->
+    <string name="vungle" translatable="false">Vungle</string>
+
+    <!-- Don't Change -->
+    <string name="startapp" translatable="false">StartApp</string>
+    <!-- Don't Change -->
+    <string name="unityads" translatable="false">UnityAds</string>
+    <!-- Don't Change -->
+    <string name="admob" translatable="false">Admob</string>
+    <!-- Don't Change -->
+    <string name="appodeal" translatable="false">Appodeal</string>
+    <!-- Don't Change -->
+    <string name="facebook" translatable="false">Facebook</string>
+    <!-- Don't Change -->
+    <string name="auto" translatable="false">Auto</string>
+
+
+    <string name="main_player">مشغل جي كرتون</string>
+    <string name="vlc">VLC</string>
+    <string name="mx_player">MX PLAYER</string>
+    <string name="web_video_caster">Web Video Caster</string>
+    <string name="choose_your_launch_player">إختر المشغل </string>
+    <string name="byteen">/10</string>
+    <string name="review_sent">تم إضافة تقيم بنجاح</string>
+    <string name="review_error">هناك خطأ في الإرسال أعد مجددا</string>
+    <string name="favouritadded_sent">تم إضافته للمفضلة بنجاح</string>
+    <string name="favouriot_error">هناك خطأ</string>
+    <string name="favouritremov_sent">تم حدف من المفضلة</string>
+
+</resources>

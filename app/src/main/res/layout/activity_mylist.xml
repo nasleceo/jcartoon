@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:background="@color/bg4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/gradient_activiti"
+            android:id="@+id/relat_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <RelativeLayout
+                android:layout_marginTop="40dp"
+                android:id="@+id/loodloh"
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/gootos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria"
+                        android:text="قائمتي"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="23dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gootos"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/backch"
+                        android:layout_centerVertical="true"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:civ_border_width="1dp"
+                        app:civ_border_overlay="true"
+                        app:civ_border_color="@color/white"
+                        android:src="@drawable/ic_arrow_back" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/relat_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list_rv"
+                android:layout_below="@+id/tablay"
+                />
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:tabMode="scrollable"
+                app:tabBackground="@color/bg4"
+                app:tabTextColor="@color/white"
+                app:tabTextAppearance="@style/appbaartext"
+                app:tabIndicatorColor="@color/white"
+                >
+
+            </com.google.android.material.tabs.TabLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/myempty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/arabic_kufi"
+            android:gravity="center"
+            android:text="القائمة فارغة"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

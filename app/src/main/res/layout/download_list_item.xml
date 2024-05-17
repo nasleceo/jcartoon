@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/thumb"
+        android:layout_toStartOf="@id/delete_download"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp">
+
+        <TextView
+            android:id="@+id/anime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anime Name"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="left"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/episode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Episode -"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="left"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="right"
+                android:text="0 KB/s"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="left"
+                android:text="0 %"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#74FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/click_animation" />
+
+    <ImageView
+        android:id="@+id/delete_download"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:foreground="@drawable/click_animation_round"
+        android:padding="13dp"
+        android:src="@drawable/ic_delete_outline"
+        app:tint="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/thumb"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/black_200"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/play_pause_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:src="@drawable/ic_play"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

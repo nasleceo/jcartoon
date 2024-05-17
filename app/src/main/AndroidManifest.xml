@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/DarkTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="33">
+        <activity
+            android:name=".Activities.nextbeforepe"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ADcenter.ShowAdsHome"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.InAppUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".API.Anime.DetailPage"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.EditProfil"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ADcenter.WelcomPage"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Allcharacters"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SearchCartoon"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MyList.savedpostdownload"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.WatchChapter"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Chapters"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CastShow"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Replay"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.episodes"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Notification"
+            android:exported="false" />
+        <!--
+        <activity
+            android:name=".EmbedPlayer"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        -->
+        <activity
+            android:name=".JPLAYER.Player"
+            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+            android:supportsPictureInPicture="true" />
+        <activity
+            android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".Activities.jcartoonroom.WatchRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.jcartoonroom.StartRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.jcartoonroom.CreateRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.jcartoonroom.Myrooms"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.jcartoonroom.AllRooms"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Subscribea"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddPost"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Comments"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/DarkTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MySeasons"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ANOUCEPAGE"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ShowInfoActivity"
+            android:exported="true"
+            android:theme="@style/TransparentStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="jseries.page.link"
+                    android:scheme="http" />
+                <data
+                    android:host="jseries.page.link"
+                    android:scheme="https" /> <!-- This line to define schema -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.MyList.Mylist"
+            android:exported="false" />
+        <!--
+  <activity
+            android:name=".Activities.EpesodTAFASIL"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".Activities.Jdownload.DownloadList"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Settings.SettingsJcartoon"
+            android:exported="false"
+            android:theme="@style/TransparentStatusBar" />
+        <activity
+            android:name=".Activities.ViewPhoto"
+            android:exported="false" />
+        <activity
+            android:name=".JPLAYER.WebPlayer"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Activities.Auth.LoginTojcartoon"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Auth.Signintojcartoon"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Auth.Signintojcartoon2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/DarkTheme" />
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="98U2zrlM8Ba_UIfABV01QGnJWcc_do8LACwlAb-4Ap88hoFNZ7AiTv3u5oQ5KTTgb0qwIpw79L4wEJx4IVba_Q" />
+        <meta-data
+            android:name="vn.momo.plugin.startapp.SPLASH_AD_ENABLED"
+            android:value="false" />
+        <meta-data
+            android:name="com.startapp.sdk.RETURN_ADS_ENABLED"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7088921158431685~1421038043" />
+        <meta-data
+            android:name="com.onesignal.NotificationServiceExtension"
+            android:value="com.anass.jplus.Serves.NotifacationService" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

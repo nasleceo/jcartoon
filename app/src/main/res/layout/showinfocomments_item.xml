@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/bg4"
+    app:strokeColor="@color/white"
+    app:strokeWidth="1.2dp"
+    app:cardCornerRadius="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gotocomments"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:tint="@color/white"
+                android:src="@drawable/fin_profile" />
+            <LinearLayout
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toStartOf="@+id/gotocomments"
+                android:id="@+id/addratebtn"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+                    <ImageView
+                        android:id="@+id/show_verefic"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:src="@drawable/verified" />
+
+                    <TextView
+                        android:id="@+id/fullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria"
+                        android:text="أنس المتنيب"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="11dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alexandria"
+                    android:text="/@anass"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#C5C5C5"
+                    android:textStyle="bold"
+                    android:textSize="8dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+        <com.hendraanggrian.appcompat.socialview.widget.SocialTextView
+            android:layout_margin="20dp"
+
+            android:id="@+id/content"
+            android:gravity="start"
+            android:maxLength="2000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alexandria"
+            android:text="كما أنه تجميع للقوى الفردية الاقتصادية أو سلوك إنساني عُرف في جميع العصور البشرية. أما التعاون التقليدي فيسعى في مراحله الأولى إلى إنشاء المجتمعات التعاونية، وتتلخص برامجه في إنشاء الجمعيات التعاونية المحلية التي تعمل للحصول أكبر قدر ممكن من الأرباح في مصلحة الأفراد، وثاني مرحلة إنشاء جمعيات تجارة الجملة، وثالث مرحلة الحصول على أرض لإنتاج محاصيل زراعية متنوعة، بالإضافة لسعي القائمين على هذا النوع من التعاون بإمتلاك وسائل إنتاج للحصول على منتوج جيد وقليل  التكاليف "
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

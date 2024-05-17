@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:background="#181B1B"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <RelativeLayout
+        android:layoutDirection="rtl"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/bg4"
+            android:src="@drawable/fin_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/btacc">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/com_facebook_button_like_background"
+                app:tint="#404040" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/user_image"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/user_sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alexandria"
+                android:text="طكلل2558"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/messagofnoti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairoregular"
+                android:text="أعجب بتعليقك"
+                android:textColor="@color/white"
+                android:textSize="11dp" />
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/btacc">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/com_facebook_button_like_background"
+                app:tint="#404040" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

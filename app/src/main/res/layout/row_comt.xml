@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="3.2dp"
+    android:layoutDirection="ltr"
+
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="8dp"
+            android:layout_gravity="top"
+            android:id="@+id/rl_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#393838">
+
+
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@id/userimage"
+                android:layout_toEndOf="@id/morecomments"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/datetoadded"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:maxEms="15"
+                        android:ellipsize="end"
+                        android:text="قبل 4 أيام"
+                        android:textColor="#BABABA"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/comicstitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:maxEms="15"
+                        android:ellipsize="end"
+                        android:textStyle="bold"
+                        android:text="jcartoon_name"
+                        android:textColor="@color/white"
+                        android:textSize="13dp" />
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/userid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:maxEms="15"
+                    android:ellipsize="end"
+                    android:text="anass_elkadi"
+                    android:textColor="#BABABA"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/comment_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:maxLength="1000"
+                    android:textColorLink="@color/red"
+                    android:autoLink="web"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+
+                <LinearLayout
+                    android:layout_marginTop="11dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+
+                   <LinearLayout
+                       android:orientation="horizontal"
+                       android:layout_gravity="center_vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <TextView
+                           android:layout_marginEnd="10dp"
+                           android:layout_marginStart="10dp"
+                           android:id="@+id/unlikecount"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:fontFamily="@font/poppins_regular"
+                           android:text="0"
+                           android:textColor="@color/white"
+                           android:textSize="11dp" />
+                       <ImageView
+                           android:layout_width="19dp"
+                           android:layout_height="19dp"
+                           android:id="@+id/unlikecomment"
+                           android:src="@drawable/brokenheartempty"
+                           app:tint="@color/white"/>
+                   </LinearLayout>
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="0dp"/>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginStart="10dp"
+                            android:id="@+id/likecount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_regular"
+                            android:text="0"
+                            android:textColor="@color/white"
+                            android:textSize="11dp" />
+                        <ImageView
+
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:id="@+id/likecomment"
+                            android:src="@drawable/heart"
+                            app:tint="@color/white"/>
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_width="49dp"
+                android:indeterminateTint="@color/white"
+                android:layout_height="49dp" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/logo"
+                android:id="@+id/userimage"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                app:tint="@color/white" />
+
+
+            <ImageView
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/more"
+                android:id="@+id/morecomments"
+                android:backgroundTint="@color/white"
+                app:tint="@color/white"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

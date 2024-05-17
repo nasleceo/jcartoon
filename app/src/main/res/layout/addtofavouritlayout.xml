@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/transparent"
+    android:layout_width="fill_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="fill_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginStart="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="14sp"
+        app:cardCornerRadius="8sp"
+        app:cardElevation="20dp"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1.4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/bggg"
+            android:background="@drawable/gradient_pages"
+            android:visibility="visible"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listfavourtadd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+<!--
+                <RelativeLayout
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <TextView
+                        android:layout_toStartOf="@+id/favcart"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="الكرتون المفضل"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+
+
+                    <CheckBox
+                        android:id="@+id/favcart"
+                        android:theme="@style/checkBoxStyle"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"/>
+
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="تم مشاهدتها"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_toStartOf="@+id/tammoxahada_check"
+                        android:textSize="14dp" />
+
+
+                    <CheckBox
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/checkBoxStyle"
+
+                        android:id="@+id/tammoxahada_check"
+                        android:layout_centerVertical="true"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"/>
+
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="أرغب بمشاهدتها"
+                        android:layout_toStartOf="@+id/arghababomoxaha_check"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+
+
+                    <CheckBox
+                        android:layout_alignParentEnd="true"
+                        android:theme="@style/checkBoxStyle"
+
+                        android:id="@+id/arghababomoxaha_check"
+                        android:layout_centerVertical="true"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"/>
+
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/oxahidonow_check"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="أشاهدها حاليا"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+
+
+                    <CheckBox
+                        android:theme="@style/checkBoxStyle"
+
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/oxahidonow_check"
+                        android:layout_centerVertical="true"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"/>
+
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/okmilhalahika_check"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="أكملها مستقبلا"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+
+
+                    <CheckBox
+                        android:theme="@style/checkBoxStyle"
+
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/okmilhalahika_check"
+                        android:layout_centerVertical="true"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"/>
+
+
+
+                </RelativeLayout>-->
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addtofav_btn"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/addtomylist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/btnflwolbg"
+                    android:foreground="@drawable/click_animation_round"
+                    >
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/addtofv"
+                            android:layout_centerVertical="true"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:tint="@color/black"
+                            android:src="@drawable/ic_add" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="إضافة"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>

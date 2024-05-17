@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:id="@+id/scrollView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="جي كرتون"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="23dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/show_profile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:civ_border_width="1dp"
+                    app:civ_border_overlay="true"
+                    app:civ_border_color="@color/white" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/search_btn"
+                    android:layout_marginStart="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corn"
+                    android:src="@drawable/ic_search" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_below="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/rltslid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <RelativeLayout
+                        android:id="@+id/gotoComics"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/corners"
+                        android:foreground="@drawable/click_animation_round">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="2sp"
+                            android:layout_marginEnd="2sp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="كوميكس"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/gotomovies"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/corners"
+                        android:foreground="@drawable/click_animation_round">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="9sp"
+                            android:layout_marginEnd="9sp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="أفلام"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/gototvsfrag"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/corners"
+                        android:foreground="@drawable/click_animation_round">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="2sp"
+                            android:layout_marginEnd="2sp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="مسلسلات"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <RelativeLayout
+                        android:id="@+id/gotojstore"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/corners"
+                        android:foreground="@drawable/click_animation_round">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="2sp"
+                            android:layout_marginEnd="2sp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="متجر جي كرتون"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/gotoanime"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/corners"
+                        android:foreground="@drawable/click_animation_round">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="9sp"
+                            android:layout_marginEnd="9sp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="أنمي"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp"/>
+
+
+                    <RelativeLayout
+                        android:id="@+id/gotomanga"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/corners"
+                        android:foreground="@drawable/click_animation_round">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="2sp"
+                            android:layout_marginEnd="2sp"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="مانغا"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginBottom="40sp"
+                    android:layout_below="@+id/relat_appbar"
+                    app:cardCornerRadius="10sp"
+                    app:cardElevation="20dp"
+                    android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+                    app:strokeColor="#D0FFFFFF"
+                    app:strokeWidth="0.5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:id="@+id/sliderr"
+                        android:layout_height="500dp">
+
+
+                        <com.nvanbenschoten.motion.ParallaxImageView
+                            android:id="@+id/image_thumbnail"
+                            app:motionTiltSensitivity="2.5"
+                            app:motionIntensity="1.1"
+                            android:layout_width="match_parent"
+                            android:layout_height="500dp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.498"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="280dp"
+                            android:src="@drawable/on"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent" />
+
+
+                        <LinearLayout
+                            android:padding="2dp"
+                            android:id="@+id/linearLayout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent">
+
+                            <ImageView
+                                android:id="@+id/cartoon_logo"
+                                android:layout_width="200dp"
+                                android:layout_height="100dp" />
+
+                            <TextView
+                                android:id="@+id/geners_cartoon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/arabic_kufi"
+                                android:gravity="center"
+                                android:textColor="@color/white"
+                                android:textSize="13dp"/>
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+
+                                <RelativeLayout
+                                    android:layout_weight="1"
+                                    android:id="@+id/watchepenoew"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:backgroundTint="#fffefe"
+                                    android:background="@drawable/btnflwolbg"
+                                    android:foreground="@drawable/click_animation_round">
+
+
+                                    <LinearLayout
+                                        android:gravity="center"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <ImageView
+                                            android:layout_centerVertical="true"
+                                            android:layout_width="18dp"
+                                            android:layout_height="12dp"
+                                            app:tint="@color/black"
+                                            android:src="@drawable/play" />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/arabic_kufi"
+                                            android:text="شاهد"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:textColor="@color/black"
+                                            android:textStyle="bold"
+                                            android:textSize="12dp" />
+
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="10dp"
+                                    android:layout_height="0dp"/>
+
+
+                                <RelativeLayout
+                                    android:layout_weight="1"
+                                    android:id="@+id/addtomylist"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:backgroundTint="@color/bg4"
+                                    android:background="@drawable/btnflwolbg"
+                                    android:foreground="@drawable/click_animation_round"
+                                    >
+
+                                    <LinearLayout
+                                        android:gravity="center"
+                                        android:layout_centerInParent="true"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <ImageView
+                                            android:id="@+id/addtofv"
+                                            android:layout_centerVertical="true"
+                                            android:layout_width="15dp"
+                                            android:layout_height="15dp"
+                                            app:tint="@color/white"
+                                            android:src="@drawable/ic_add" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/arabic_kufi"
+                                            android:text="المفضلة"
+                                            android:layout_centerVertical="true"
+                                            android:layout_marginStart="5dp"
+                                            android:textColor="@color/white"
+                                            android:textStyle="bold"
+                                            android:textSize="12dp" />
+
+
+                                    </LinearLayout>
+
+                                </RelativeLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/motabata"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="متبتة"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/pined_rv"
+                    android:layoutDirection="rtl"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+            <!--   إعلان  -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/adViewLayout"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <!--   إعلان نهاية -->
+
+
+            <LinearLayout
+                android:id="@+id/axhartvtpday"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أشهر المسلسلات هدا اليوم"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/toptvtoday_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/axharaflamtoday"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أشهر الأفلام هدا الشهر"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/topmoviemonth_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/akhiralakat"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أخر الحلقات المضافة"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lastepeadded_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/akhiraladad"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أخر الأعداد المضافة"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lastchapters_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mosalastjadida"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مسلسلات جديدة"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/newtvadded_rv"
+                        android:nestedScrollingEnabled="true"
+                        android:layoutDirection="rtl"
+                        android:padding="20dp"
+                        android:clipToPadding = "false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </androidx.core.widget.NestedScrollView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/aktarcomicsbiews"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أكتر الكوميسك مشاهدة"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/comicstopvisit_rv"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cartoonaddedtofavourit"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أكتر الكراتين إضافة للمفضلة"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mosttvandmovieaddedtofavourit_rv"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Settings.SettingsJcartoon">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:background="@color/amoled_primary_color"
+            android:id="@+id/appvar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/gobback"
+                style="@style/MyRipple"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:outlineProvider="background"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="23dp"
+                android:layout_marginStart="23dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Settings"
+                android:layout_toEndOf="@+id/gobback"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/sitplay"
+            android:gravity="start"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/appvar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="23dp"
+                android:layout_marginStart="23dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arabic_kufi"
+                android:text="System"
+                android:textAllCaps="true"
+                android:textColor="#5C5C5C"
+                android:textSize="13dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="Change Language"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/choseplacesave"
+                        android:popupBackground="#404040"
+                        android:popupTheme="@style/SpinnerTheme"                        android:theme="@style/SpinnerTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="Open Episodes With "
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/choseplayer"
+                        android:popupBackground="#404040"
+                        android:popupTheme="@style/SpinnerTheme"                        android:theme="@style/SpinnerTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="Download Episodes With "
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/chosedownlo"
+                        android:theme="@style/SpinnerTheme"
+                        android:popupBackground="#404040"
+                        android:popupTheme="@style/SpinnerTheme"
+                        android:spinnerMode="dropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="تحميل الكوميكس بواسطة ؟"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+                    <Spinner
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/chosedownlocomics"
+                        android:spinnerMode="dropdown"
+                        android:theme="@style/SpinnerTheme"
+                        android:popupBackground="#404040"
+                        android:popupTheme="@style/SpinnerTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="40dp"
+            android:id="@+id/appinfo"
+            android:gravity="start"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/sitplay"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="23dp"
+                android:layout_marginStart="23dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arabic_kufi"
+                android:text="About us"
+                android:layout_toEndOf="@+id/gomyacc1"
+                android:textAllCaps="true"
+                android:textColor="#5C5C5C"
+                android:textSize="13dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/callus"
+
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="15dp"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="Call us"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="15dp"
+                    android:id="@+id/showfacebookpage"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/ourfacebook"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="FB PAGE"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:padding="15dp"
+                    android:id="@+id/myaccanass"
+                    android:background="@drawable/looowolbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="JSERIES HAS MADE BY : \@alkadianass"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

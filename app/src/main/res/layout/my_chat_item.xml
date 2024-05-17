@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:paddingVertical="5dp"
+    android:paddingHorizontal="5dp"
+    android:orientation="vertical"
+    android:clipToPadding="false">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_body"
+        android:fontFamily="@font/cairobold"
+        android:background="@drawable/my_message"
+        android:textColor="#fff"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingVertical="5dp"
+        android:elevation="2dp"
+        android:textSize="10dp"
+        android:layout_alignParentRight="true"
+        />
+
+</LinearLayout>

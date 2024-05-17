@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/report_item"
+        android:title="تبليغ" />
+    <!-- Add other menu items if needed -->
+</menu>

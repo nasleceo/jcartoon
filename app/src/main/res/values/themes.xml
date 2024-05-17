@@ -1,0 +1,171 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bgdark</item>
+        <item name="colorPrimaryVariant">@color/darkfew</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="21">@color/bg4</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/bg4</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style parent="ThemeOverlay.AppCompat.Dialog.Alert" name="TrackSelectionDialogThemeOverlay">
+
+        <item name="windowNoTitle">false</item>
+
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/bgdark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/arabic_kufi</item>
+    </style>
+    <style name="tabtext" parent="android:Widget.TextView">
+        <item name="android:textSize">11dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/alexandria</item>
+    </style>
+    <style name="raditocx" parent="android:Widget.TextView">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/cairobold</item>
+    </style>
+    <style name="appbaartext" parent="android:Widget.TextView">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/arabic_kufi</item>
+    </style>
+    <style name="SwitchStyle">
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottom_sheet_dialog</item>
+    </style>
+
+    <style name="TransparentStatusBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowTranslucentStatus" tools:targetApi="20">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/bgdark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+
+    </style>
+    <style name="TransparentStatusBarMater" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowTranslucentStatus" tools:targetApi="20">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/bgdark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+
+    </style>
+
+    <style name="TextAppearanceInactive" parent="android:Widget.TextView">
+        <item name="android:textSize">9dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/arabic_kufi</item>
+    </style>
+    <style name="TextAppearanceActive" parent="android:Widget.TextView">
+        <item name="android:textSize">9dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/arabic_kufi</item>
+    </style>
+
+    <style name="MyRipple">
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="SpinnerTheme">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/arabic_kufi</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="snackbarStyle">@style/MySnackbar</item>
+    </style>
+
+    <style name="MySnackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+    <style name="AccountIcon">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="AccountCover">
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+
+
+    <style name="TabStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/white</item>
+        <item name="buttonTint">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+
+    <style name="MyAlertDialogTheme" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/bg4</item>
+        <item name="android:windowAnimationStyle">@style/MyAnimation.Window</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="MyAlertDialogProfile" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/bg4</item>
+        <item name="android:windowAnimationStyle">@style/MyAnimation.Profile</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="MyAnimation" />
+
+    <!-- Animations for a non-full-screen window or activity. -->
+    <style name="MyAnimation.Window" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/enter_left_to_right</item>
+        <item name="android:windowExitAnimation">@anim/exit_left_to_right</item>
+    </style>
+
+    <style name="MyAnimation.Profile" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/enter_right_to_left</item>
+        <item name="android:windowExitAnimation">@anim/exit_right_to_left</item>
+    </style>
+</resources>

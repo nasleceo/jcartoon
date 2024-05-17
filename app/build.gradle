@@ -1,0 +1,177 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.anass.jplus'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.anass.jplus"
+        minSdk 21
+        targetSdk 33
+        versionCode 21
+        versionName "2.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation fileTree(dir: 'C:\\Users\\ANASS ELKADI\\StudioProjects\\jcartoon2024\\app\\libs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation 'com.google.firebase:firebase-config:21.2.0'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.1'
+    implementation files('libs\\AnassAnimeGetter.jar')
+    implementation files('libs\\AnassAnimeGetter.jar')
+    implementation files('libs\\AnassAnimeGetter.jar')
+    implementation files('libs\\AnassAnimeGetter.jar')
+    implementation files('libs\\AnassAnimeGetter.jar')
+    implementation files('libs\\AnassAnimeGetter.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+    implementation 'dev.shreyaspatil.MaterialDialog:MaterialDialog:2.2.2'
+    implementation 'com.squareup.picasso:picasso:2.71828' //for Inmobi
+    // Glide library
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    // exo Player
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.18.3'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.18.3'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.18.3'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.18.3'
+    implementation 'com.google.android.exoplayer:extension-rtmp:2.18.3'
+    implementation 'com.google.android.exoplayer:extension-cast:2.18.3'
+    implementation 'androidx.mediarouter:mediarouter:1.3.1'
+    implementation 'com.google.android.gms:play-services-cast-framework:21.3.0'
+    implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.3'
+    implementation 'com.google.android.exoplayer:exoplayer-rtsp:2.18.3'
+
+//DoubleTapPlayerView
+    implementation 'com.github.vkay94:DoubleTapPlayerView:1.0.4'
+
+    //Circul Image
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //Lottie
+    implementation "com.airbnb.android:lottie:6.1.0"
+
+//Room
+    implementation "androidx.room:room-runtime:2.4.2"
+    annotationProcessor "androidx.room:room-compiler:2.4.2"
+
+    //Downloader
+    implementation "androidx.tonyodev.fetch2:xfetch2:3.1.6"
+    implementation "androidx.tonyodev.fetch2okhttp:xfetch2okhttp:3.1.6"
+    implementation 'com.github.franmontiel:PersistentCookieJar:v1.0.1'
+
+
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation("com.squareup.okhttp3:okhttp-urlconnection:4.4.1")
+
+    // zoom photo
+    implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+
+    //rxjava2
+    implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+
+    //Start app
+    implementation 'com.startapp:inapp-sdk:4.10.12@aar'
+
+    //Admob
+    implementation 'com.google.android.gms:play-services-ads:21.5.0'
+
+    //Facebook Ad Network
+    implementation 'com.facebook.android:facebook-android-sdk:11.1.0'
+    implementation 'androidx.annotation:annotation:1.5.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.12.0'
+    implementation 'com.google.ads.mediation:facebook:6.12.0.0'
+
+
+
+    //Google Play services
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    //OneSignal
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'org.jsoup:jsoup:1.16.1'
+
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    implementation('com.github.evgenyneu:js-evaluator-for-android:v4.0.0') {
+        exclude module: 'appcompat-v7'
+    }
+    implementation 'com.github.abdularis:parallaximageview:1.1'
+
+    //TorrentStream
+    implementation 'com.github.TorrentStream:TorrentStream-Android:f2ea936857'
+    implementation 'com.github.se-bastiaan:TorrentStreamServer-Android:f3a7e8f9e0'
+
+    // Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //Paypal
+    //implementation 'com.paypal.checkout:android-sdk:1.1.0'
+
+    //Google Play Update
+    implementation 'com.google.android.play:app-update:2.1.0'
+
+    implementation 'com.nvanbenschoten.motion:library:1.1.2'
+
+    //Volly
+    implementation 'com.android.volley:volley:1.2.1'
+
+    //BoxedVerticalSeekBar
+    implementation 'com.github.alpbak:BoxedVerticalSeekBar:1.1.1'
+
+    //Toasty
+    implementation 'com.github.GrenderG:Toasty:1.5.2'
+
+    //No Internet
+    implementation 'org.imaginativeworld.oopsnointernet:oopsnointernet:2.0.0'
+
+    //socialview
+    implementation "com.hendraanggrian.appcompat:socialview:0.1"
+
+    //utiles
+    implementation 'org.apache.commons:commons-lang3:3.11'
+
+    implementation 'com.xw.repo:bubbleseekbar:3.20'
+
+    implementation 'com.github.chekhwastaken:spannedgridlayoutmanager:2.0.3'
+
+    implementation 'com.github.ertugrulkaragoz:SuperForwardView:0.2'
+
+
+    implementation "com.xw.repo:bubbleseekbar:3.20-lite"
+
+}

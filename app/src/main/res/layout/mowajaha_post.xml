@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:background="#151717"
+    android:id="@+id/allpostitems"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profil_post"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:tint="@color/white"
+                android:src="@drawable/fin_profile" />
+            <LinearLayout
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toStartOf="@+id/user_profil_post"
+                android:layout_toEndOf="@+id/moreoption_menu"
+                android:id="@+id/addratebtn"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="end"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+                    <ImageView
+                        android:id="@+id/show_verefic"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+
+                        android:layout_gravity="center"
+                        android:src="@drawable/verified" />
+
+                    <TextView
+                        android:id="@+id/fullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria"
+                        android:text="أنس المتنيب"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="11dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/postdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria"
+                        android:text="8 دقائق مرت"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#C5C5C5"
+                        android:textStyle="bold"
+                        android:textSize="8dp" />
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alexandria"
+                        android:text="/@anass_4455ب"
+                        android:layout_marginStart="5dp"
+                        android:textColor="#C5C5C5"
+                        android:textStyle="bold"
+                        android:textSize="8dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentStart="true"
+                android:id="@+id/moreoption_menu"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_width="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_height="20dp"
+                    app:tint="@color/white"
+                    android:src="@drawable/more" />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:visibility="visible"
+            android:id="@+id/mowajahapost"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cast1"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:tint="@color/white"
+                android:src="@drawable/fin_profile"/>
+            <LinearLayout
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toStartOf="@+id/cast1"
+                android:layout_toEndOf="@+id/cast2"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:layout_gravity="center" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cast2"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:tint="@color/white"
+                android:src="@drawable/fin_profile" />
+
+
+        </RelativeLayout>
+
+        <com.hendraanggrian.appcompat.socialview.widget.SocialTextView
+            android:layout_margin="20dp"
+            android:id="@+id/content"
+            android:gravity="start"
+            android:maxLength="2000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alexandria"
+            android:text="كما أنه تجميع للقوى الفردية الاقتصادية أو سلوك إنساني عُرف في جميع العصور البشرية. أما التعاون التقليدي فيسعى في مراحله الأولى إلى إنشاء المجتمعات التعاونية، وتتلخص برامجه في إنشاء الجمعيات التعاونية المحلية التي تعمل للحصول أكبر قدر ممكن من الأرباح في مصلحة الأفراد، وثاني مرحلة إنشاء جمعيات تجارة الجملة، وثالث مرحلة الحصول على أرض لإنتاج محاصيل زراعية متنوعة، بالإضافة لسعي القائمين على هذا النوع من التعاون بإمتلاك وسائل إنتاج للحصول على منتوج جيد وقليل  التكاليف "
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/like_functio_mowajaha_liner"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/reactbg"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/savepost"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/bookmark"
+                    app:tint="@color/white"
+                    android:id="@+id/bookmark"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/likebtncast2"
+                    android:background="@drawable/bg_likebtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/app_logo"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="1dp"
+                        app:tint="@color/white" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/unlikebtncast2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_likebtn"
+                    android:backgroundTint="@color/white">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/app_logo"
+                        app:tint="@color/bg4" />
+
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/likecountcast2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="30dp"
+                android:layout_height="0dp"/>
+
+            <LinearLayout
+                android:id="@+id/commently"
+                android:visibility="visible"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/commentscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="مناقشة"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/soci"
+                    app:tint="@color/white"
+                    android:id="@+id/comment"
+
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="0dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/likecountcast1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+
+                <RelativeLayout
+                    android:id="@+id/likebtncast1"
+                    android:background="@drawable/bg_likebtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/app_logo"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="1dp"
+                        app:tint="@color/white" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/unlikebtncast1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_likebtn"
+                    android:backgroundTint="@color/white">
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/app_logo"
+                        app:tint="@color/bg4" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

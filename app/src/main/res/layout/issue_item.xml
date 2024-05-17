@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/titlinf"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/download_epe"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/episode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/alexandria"
+            android:gravity="start"
+            android:maxLines="1"
+            android:text="العدد 1"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#FFFFFF"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/click_animation" />
+
+    <ImageView
+        android:layout_marginEnd="13dp"
+        android:id="@+id/see_epe"
+        android:layout_width="24dp"
+        android:visibility="visible"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:foreground="@drawable/eyew"
+        android:padding="12dp"
+        android:layout_marginStart="11dp"
+        app:tint="@color/white" />
+
+    <ImageView
+
+        android:layout_toEndOf="@+id/see_epe"
+        android:id="@+id/download_epe"
+        android:layout_width="24dp"
+        android:visibility="gone"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:foreground="@drawable/click_animation_round"
+        android:padding="3dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/donwload"
+        app:tint="@color/white" />
+
+
+
+</RelativeLayout>

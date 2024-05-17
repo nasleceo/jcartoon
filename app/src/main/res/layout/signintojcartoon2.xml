@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/bg4"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Auth.LoginTojcartoon">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/gradient_activiti"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_arrow_back"
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </RelativeLayout>
+
+
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/logoapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/arabic_kufi"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/alexandria"
+            android:text="أخر الخطوات المتبقية لإنشاء حساب"
+            android:textColor="#B6B6B6"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+       <RelativeLayout
+           android:id="@+id/cccss"
+           android:layout_marginTop="22dp"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <de.hdodenhof.circleimageview.CircleImageView
+               app:civ_border_color="@color/white"
+               app:civ_border_overlay="true"
+               app:civ_border_width="1dp"
+               android:alpha="0.5"
+               android:id="@+id/logogjj"
+               android:src="@drawable/fin_profile"
+               android:layout_width="100dp"
+               android:layout_height="100dp"/>
+           <ImageView
+               android:layout_centerInParent="true"
+               app:civ_border_color="@color/white"
+               app:civ_border_overlay="true"
+               app:civ_border_width="1dp"
+               android:src="@drawable/add"
+               android:layout_gravity="center"
+               android:layout_width="30dp"
+               android:layout_height="30dp"/>
+       </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/alexandria"
+            android:text="أضف صورة للحساب"
+            android:textColor="#B6B6B6"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/email_li"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:elevation="30dp"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeErrorColor="@color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:counterMaxLength="40"
+                android:hint="الإسم الخاص بك"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/white"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:startIconTint="@color/white"
+                app:startIconDrawable="@drawable/ic_person"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/usernameedit"
+                    android:maxLength="40"
+                    android:textColorHint="@color/white"
+                    android:hint="jcartoon_55 متل"
+                    android:textAppearance="@style/tabtext"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/textmsg"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:fontFamily="@font/alexandria"
+                android:text="الإسم غير متاح , اكتب اسم اخر"
+                android:textColor="#8F3B3B"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/loginbtn"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/addtomylist"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/btnflwolbg"
+                android:foreground="@drawable/click_animation_round"
+                >
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="إنشاء الحساب"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/addratebtn"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/cansle"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/btnflwolbg_copy"
+                android:foreground="@drawable/click_animation_round"
+                >
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="إلغاء"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progresaccount"
+            android:visibility="invisible"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            app:trackColor="@color/app_background"
+            app:indicatorColor="@color/white"
+            android:progress="50"
+            android:layout_height="3dp"/>
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/progresstxt"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/alexandria"
+            android:text="أخر الخطوات المتبقية لإنشاء حساب"
+            android:textColor="#B6B6B6"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

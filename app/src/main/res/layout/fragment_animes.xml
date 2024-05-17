@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:id="@+id/scrollView"
+    android:background="@color/bg4"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arabic_kufi"
+                    android:text="الأنمي"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="23dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:id="@+id/GoBACK"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corn"
+                    android:src="@drawable/ic_arrow_back" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrolllvv"
+        android:fillViewport="true"
+        android:layout_below="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/rltslid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginBottom="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:elevation="30dp"
+                    app:boxStrokeColor="@color/white"
+                    app:boxStrokeErrorColor="@color/white"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:counterMaxLength="40"
+                    android:hint="إبحث هنا"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/white"
+                    android:textColorHint="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconTint="@color/white"
+                    app:startIconDrawable="@drawable/ic_search"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/searchinput"
+                        android:maxLength="40"
+                        android:textAppearance="@style/tabtext"
+                        android:inputType="text"
+                        android:imeOptions="actionSearch"
+                        android:textColor="@color/white"
+                        android:maxLines="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <!--   إعلان  -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
+                        android:background="@drawable/ads_bg"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="إعلان"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/adViewLayout"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/ads_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <!--   إعلان نهاية -->
+
+
+            <LinearLayout
+                android:id="@+id/recentepelist"
+                android:visibility="visible"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="أخر الحلقات"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lastepe_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/animelist"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="قائمة المسلسلات"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/anime_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/movielist"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="قائمة الأفلام"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/movie_rv"
+                    android:padding="20dp"
+                    android:clipToPadding = "false"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <GridView
+        android:layout_marginTop="80dp"
+        android:id="@+id/result_rv"
+        android:numColumns="3"
+        android:layout_below="@+id/relat_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

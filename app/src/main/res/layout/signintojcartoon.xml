@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/bg4"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Auth.LoginTojcartoon">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/gradient_activiti"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ic_arrow_back"
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/alexandria"
+            android:text="واصل إنشاء الحساب وتعرف علي مميزات أكثر"
+            android:textColor="#B6B6B6"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:elevation="30dp"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeErrorColor="@color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:counterMaxLength="40"
+                android:hint="الإسم الكامل"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/white"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:startIconTint="@color/white"
+                app:startIconDrawable="@drawable/ic_person"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/onenameedit"
+                    android:maxLength="40"
+                    android:textAppearance="@style/tabtext"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:elevation="30dp"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeErrorColor="@color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:counterMaxLength="40"
+                android:hint="البريد الإلكتروني"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/white"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:startIconTint="@color/white"
+                app:startIconDrawable="@drawable/ic_person"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/emaileditnew"
+                    android:maxLength="40"
+                    android:textAppearance="@style/tabtext"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pass_li"
+            android:layout_marginTop="11dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/white"
+                android:layout_width="match_parent"
+                android:elevation="30dp"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeErrorColor="@color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:counterMaxLength="40"
+                android:hint="كلمة المرور"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
+                app:startIconTint="@color/white"
+                app:startIconDrawable="@drawable/netflix_lock_black"
+                android:layout_height="wrap_content"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passedit"
+                    android:maxLength="40"
+                    android:textAppearance="@style/tabtext"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/loginbtn"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/gotopagename"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/btnflwolbg"
+                android:foreground="@drawable/click_animation_round"
+                >
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text=" التالي"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/addratebtn"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

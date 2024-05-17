@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ShowList.seasons">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/shownose"
+        android:text="Nothing to Show"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <GridView
+        android:scrollbars="none"
+        android:id="@+id/recentepisod_rv"
+        tools:listitem="@layout/movie_item"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/progreed"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/white"
+        android:layout_width="43dp"
+        android:layout_height="43dp"/>
+
+</RelativeLayout>

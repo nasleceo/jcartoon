@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/black"
+    android:layout_height="500dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/sliderr"
+        android:background="@color/black"
+        android:layout_height="500dp">
+
+
+        <ImageView
+            android:id="@+id/image_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/on"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:src="@drawable/onn"
+            app:layout_constraintEnd_toEndOf="@+id/image_thumbnail"
+            app:layout_constraintStart_toStartOf="@+id/image_thumbnail"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:padding="2dp"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <TextView
+                android:id="@+id/season_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="27dp"/>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tasniftt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arabic_kufi"
+                android:textColor="#CCCCCC"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/watchepenoew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:background="@drawable/btnflwolbg"
+                    android:foreground="@drawable/click_animation_round">
+
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_centerVertical="true"
+                            android:layout_width="18dp"
+                            android:layout_height="12dp"
+                            app:tint="@color/white"
+                            android:src="@drawable/play" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="شاهد"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="0dp"/>
+
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/addtomylist"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                    android:backgroundTint="@color/white"
+                android:background="@drawable/btnflwolbg"
+                android:foreground="@drawable/click_animation_round"
+                    >
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/addtofv"
+                            android:layout_centerVertical="true"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            app:tint="@color/black"
+                            android:src="@drawable/ic_add" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/arabic_kufi"
+                            android:text="المفضلة"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="5dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+            </RelativeLayout>
+               
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

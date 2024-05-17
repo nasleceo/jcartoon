@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:fillViewport="true"
+    android:id="@+id/scrollView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:background="@color/bg4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@drawable/gradient_activiti"
+            android:id="@+id/relat_appbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <RelativeLayout
+                android:layout_marginBottom="15dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/coummentscount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cairobold"
+                        android:text="() التعليقات"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="23dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/gotooback"
+                        android:layout_width="30dp"
+                        android:clickable="true"
+                        android:layout_height="30dp"
+                        app:civ_border_width="1dp"
+                        app:civ_border_overlay="true"
+                        app:civ_border_color="@color/white"
+                        android:src="@drawable/close" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/coments_rv"
+            android:layout_below="@+id/relat_appbar"
+            android:layout_above="@+id/addcomant_rtl"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/comment_item"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+        <ProgressBar
+            android:indeterminateTint="@color/white"
+            android:id="@+id/progresswaitt"
+            android:layout_below="@+id/relat_appbar"
+            android:layout_above="@+id/addcomant_rtl"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            tools:listitem="@layout/comment_item"
+            android:layout_height="wrap_content">
+
+        </ProgressBar>
+
+
+        <RelativeLayout
+            android:layout_above="@+id/navigation_bar"
+            android:id="@+id/addcomant_rtl"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <RelativeLayout
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/addratebtn"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/email_li"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:id="@+id/textinputacc"
+                            app:boxStrokeColor="@color/white"
+                            app:boxStrokeErrorColor="@color/white"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:hint="أضف كلمة حرق  إدا كان تعليقك فيه حرق..."
+                            app:endIconMode="custom"
+                            app:endIconDrawable="@drawable/sendss"
+                            app:endIconTint="@color/white"
+                            app:counterMaxLength="2000"
+                            android:textColorHint="@color/white"
+                            app:hintTextColor="@color/white"
+                            android:layout_height="match_parent"
+                            >
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/sendcomentedit"
+                                android:textAppearance="@style/tabtext"
+                                android:inputType="text"
+                                android:maxLength="2000"
+                                android:windowSoftInputMode="adjustResize"
+                                android:textColor="@color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"/>
+
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg4"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+
+
+

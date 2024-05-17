@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/bg4"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Auth.LoginTojcartoon">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/gradient_activiti"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_arrow_back"
+            android:id="@+id/closlogin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:rotation="180"
+            android:src="@drawable/ic_arrow_back"
+            android:id="@+id/skip"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/skip"
+            android:fontFamily="@font/alexandria"
+            android:text="تخطى"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/logoapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/arabic_kufi"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/alexandria"
+            android:text="سجل دخولك وإستمتع بمميزات أكثر"
+            android:textColor="#B6B6B6"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+      <LinearLayout
+          android:layout_marginTop="20dp"
+          android:id="@+id/email_li"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="match_parent"
+              android:elevation="30dp"
+              app:boxStrokeColor="@color/white"
+              app:boxStrokeErrorColor="@color/white"
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              app:counterMaxLength="40"
+              android:hint="البريد الإلكتروني"
+              app:endIconMode="clear_text"
+              app:endIconTint="@color/white"
+              android:textColorHint="@color/white"
+              app:hintTextColor="@color/white"
+              app:startIconTint="@color/white"
+              app:startIconDrawable="@drawable/ic_person"
+              android:layout_height="wrap_content"
+              >
+              <com.google.android.material.textfield.TextInputEditText
+                  android:id="@+id/emailedit"
+                  android:maxLength="40"
+                  android:textAppearance="@style/tabtext"
+                  android:inputType="text"
+                  android:textColor="@color/white"
+                  android:maxLines="1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+
+      </LinearLayout>
+      <LinearLayout
+          android:id="@+id/pass_li"
+          android:layout_marginTop="11dp"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+          <com.google.android.material.textfield.TextInputLayout
+              app:passwordToggleEnabled="true"
+              app:passwordToggleTint="@color/white"
+              android:layout_width="match_parent"
+              android:elevation="30dp"
+              app:boxStrokeColor="@color/white"
+              app:boxStrokeErrorColor="@color/white"
+              style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+              app:counterMaxLength="40"
+              android:hint="كلمة المرور"
+              android:textColorHint="@color/white"
+              app:hintTextColor="@color/white"
+              app:startIconTint="@color/white"
+              app:startIconDrawable="@drawable/netflix_lock_black"
+              android:layout_height="wrap_content"
+              >
+              <com.google.android.material.textfield.TextInputEditText
+                  android:id="@+id/passedit"
+                  android:maxLength="40"
+                  android:textAppearance="@style/tabtext"
+                  android:inputType="textPassword"
+                  android:textColor="@color/white"
+                  android:maxLines="1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+      </LinearLayout>
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:fontFamily="@font/alexandria"
+            android:text="إستعادة كلمة المرور"
+            android:textColor="#FFFFFF"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/loginbtn"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/addtomylist"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/btnflwolbg"
+                android:foreground="@drawable/click_animation_round"
+                >
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="تسجيل الدخول"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/addratebtn"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/gotosignin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/btnflwolbg_copy"
+                android:foreground="@drawable/click_animation_round"
+                >
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arabic_kufi"
+                        android:text="إنشاء حساب جديد"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

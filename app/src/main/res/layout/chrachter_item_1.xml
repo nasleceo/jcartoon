@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="start"
+    android:layoutDirection="rtl"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingBottom="2dp"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/bgcountcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="end"
+        android:paddingHorizontal="7dp"
+        android:orientation="horizontal"
+        android:visibility="visible">
+        <ImageView
+            android:id="@+id/show_verefic"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_love" />
+
+        <TextView
+            android:id="@+id/likecount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almaria_regular"
+            android:text="0"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/show_profile"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:civ_border_width="2dp"
+        app:civ_border_overlay="true"
+        app:civ_border_color="@color/white"
+        android:src="@drawable/fin_profile" />
+
+    <TextView
+        android:id="@+id/cast_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/alexandria"
+        android:gravity="start"
+        android:text="fin martin"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+
+
+</LinearLayout>

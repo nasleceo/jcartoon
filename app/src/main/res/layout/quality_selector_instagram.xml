@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+
+    android:layoutDirection="ltr"
+    android:background="@drawable/quality_selector_background">
+
+   <RelativeLayout
+       android:layout_gravity="center"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:padding="15dp">
+
+           <TextView
+               android:id="@+id/quality"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/arabic_kufi"
+               android:gravity="center"
+               android:text="الجودات المتوفرة"
+               android:textColor="@color/white"
+               android:textSize="18dp" />
+
+
+
+           <LinearLayout
+               android:id="@+id/quality_list"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="vertical"
+               android:layout_marginRight="20dp"
+               android:layout_marginLeft="20dp">
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</ScrollView>
