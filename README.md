@@ -56,7 +56,6 @@
 
 <!-- GETTING STARTED -->
 ### كيف استعمل اتبث التطبيق و لوحة التحكم واغير اسم التطبيق و اللوغو و كود الاعلانات
-
-اولا يجب ان تتبت لوحة التحكم في السيرفر حتي نوفر api جاهز للتطبيق . ستجدون لوحة التحكم في هدا الرابط مع طريقة تجهيزها في السيرفر : [@jcartoondashboard](https://github.com/nasleceo/jcartoondashboard)
-بعدها شاهد مقطع الفيديو من يوتوب واتيع الطريقة لتجهيز كل شي : https://www.youtube.com/watch?v=ctFgvFhKsHQ
+* اولا يجب ان تتبت لوحة التحكم في السيرفر حتي نوفر api جاهز للتطبيق . ستجدون لوحة التحكم في هدا الرابط مع طريقة تجهيزها في السيرفر : [@jcartoondashboard](https://github.com/nasleceo/jcartoondashboard)
+* بعدها شاهد مقطع الفيديو من يوتوب واتيع الطريقة لتجهيز كل شي : https://www.youtube.com/watch?v=ctFgvFhKsHQ
 
