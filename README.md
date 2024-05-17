@@ -40,7 +40,8 @@
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 
 
@@ -49,11 +50,7 @@
  * تم بناء التطبيق كامله بلغة الجافا في بئة العمل اندرويد ستوديو وتم استغراق مايقارب شهرين من البرمجة و التصميم لإخراج هده النسخة من التطبيق
  * ولوحة التحكم تم بناءها بلغة php مع استعمال فريمورك لارافيل وهو افضل أطر العمل الخاصة بالسيرفرات لانه يدعم قاعدة البيانات mysql و كدالك API المستعملة لربط التطبيق مع لوحة التحكم .
 
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
