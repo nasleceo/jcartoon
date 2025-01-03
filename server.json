@@ -1560,6 +1560,55 @@
          ]
      }
 
+    ] 
+  },
+  {
+    "id": "tvseries-ninja-go",
+    "title": "Ninjago",
+    "img": "https://m.media-amazon.com/images/I/91DUWbFnGxL._AC_UF894,1000_QL80_.jpg",
+    "story": "**Ninjago** هي قصة عن مجموعة من النينجا الشباب الذين يتعلمون استخدام قواهم الخاصة لحماية عالمهم من الأشرار. يقودهم معلم حكيم يُدعى **Sensei Wu** في مغامرات مليئة بالتحديات والصراعات، حيث يواجهون أعداء مختلفين مثل والد أحدهم، **Lord Garmadon**. في كل مرحلة، يتعلم الأبطال دروسًا عن الصداقة، الشجاعة، وتوازن القوى الداخلية لتحقيق النصر.",
+    "seasons": [
+      {
+        "id": "season-0",
+        "title": "Season 0",
+        "episodes": [
+          {
+            "id": "episode-05",
+            "title": "Ninjago-S00E05.mp4",
+            "img": "placeholder_episode_image_url",
+            "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s0/Ninjago-S00E05.mp4",
+            "servers": []
+          },
+          {
+            "id": "episode-04",
+            "title": "Ninjago-S00E04.mp4",
+             "img": "placeholder_episode_image_url",
+            "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s0/Ninjago-S00E04.mp4",
+            "servers": []
+          },
+          {
+            "id": "episode-03",
+            "title": "Ninjago-S00E03.mp4",
+            "img": "placeholder_episode_image_url",
+            "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s0/Ninjago-S00E03.mp4",
+            "servers": []
+          },
+          {
+            "id": "episode-02",
+            "title": "Ninjago-S00E02.mp4",
+             "img": "placeholder_episode_image_url",
+            "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s0/Ninjago-S00E02.mp4",
+             "servers": []
+          },
+          {
+            "id": "episode-01",
+            "title": "Ninjago-S00E01.mp4",
+             "img": "placeholder_episode_image_url",
+            "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s0/Ninjago-S00E01.mp4",
+            "servers": []
+          }
+        ]
+      }
     ]
   }
 ]
