@@ -348,6 +348,361 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tvseries-2",
+      "title": "بن تن الكلاسيكي",
+      "img": "https://flowind.net/wp-content/uploads/2021/09/tileburnedin.png",
+      "story": "كامل مدبلج دون حذف",
+      "seasons": [
+        {
+          "id": "season-1",
+          "title": "الموسم الأول",
+          "episodes": [
+            {
+              "id": "episode-47",
+              "title": "حلقة 1 - بداية حكاية بن 10",
+              "img": "https://flowind.net/wp-content/uploads/2021/09/TEN_29.webp",
+              "link": "https://videa.hu/videok/film-animacio/btc-s1e1-film-animacio-8c.VGDlf4nuE2AVSz",
+              "servers": []
+            },
+            {
+               "id": "episode-48",
+                "title": "حلقة 2 - واشنطن قبل التاريخ",
+                "img":"https://flowind.net/wp-content/uploads/2021/09/Washington_b.c.webp",
+                "link": "https://videa.hu/videok/film-animacio/btc-s1e2-film-animacio-F!yBbl7OAKFpUIBcd",
+                "servers": []
+            },
+             {
+              "id": "episode-49",
+               "title": "حلقة 3 - الكراكين",
+                "img": "https://flowind.net/wp-content/uploads/2021/09/Krakken_29.webp",
+                "link":"https://videa.hu/videok/film-animacio/btc-s1e3-film-animacio-ek!O25Ban2FQ6hnqA",
+               "servers": []
+              },
+               {
+                "id": "episode-50",
+                 "title": "حلقة 4 - التقاعد الدائم",
+                "img":"https://flowind.net/wp-content/uploads/2021/09/PM_29.webp",
+                 "link": "https://videa.hu/videok/film-animacio/btc-s1e4-film-animacio-M3B01CCc!EU62TelG",
+                  "servers": []
+               },
+                {
+                 "id":"episode-51",
+                 "title":"حلقة 5 - الاصطياد",
+                  "img":"https://flowind.net/wp-content/uploads/2021/09/Hunted_29.webp",
+                  "link":"https://videa.hu/videok/film-animacio/btc-s1e5-film-animacio-W6oMwfQIu1!yT9LIK",
+                    "servers": []
+                },
+                {
+                    "id":"episode-52",
+                     "title": "حلقة 6 - فخ السياحة",
+                      "img": "https://flowind.net/wp-content/uploads/2021/09/MV5BZDMzYWI0ODYtYWQ4Yi00MmNmLTk0ZmItMThjN2M1ZmU5YWU5XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                   "link":"https://videa.hu/videok/film-animacio/btc-s1e6-film-animacio-c1ziGxy8LBAXvZ!P1",
+                        "servers": []
+                    },
+                  {
+                      "id":"episode-53",
+                     "title":"حلقة 7 - كيفن 11",
+                      "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BNDlkYzFlY2UtZDY4MC00ZjU2LWEwODItMzA3M2M1YmQ5ZTYwXkEyXkFqcGc@._V1_-1.jpg",
+                      "link":"https://videa.hu/videok/film-animacio/btc-s1e7-film-animacio-APvohO3y0WylVOW4!",
+                       "servers": []
+                  },
+                   {
+                     "id":"episode-54",
+                     "title":"حلقة 8 - التحالف",
+                     "img":"https://flowind.net/wp-content/uploads/2021/09/Alliance_29.webp",
+                     "link": "https://videa.hu/videok/film-animacio/btc-s1e8-film-animacio-DO$VWn6MYRs4c0A0k",
+                    "servers": []
+                   },
+                    {
+                        "id":"episode-55",
+                        "title":"حلقة 9 - الضحكة الأخيرة",
+                         "img": "https://flowind.net/wp-content/uploads/2021/09/MV5BMmI5YjM2OGMtYjhlZC00YTA4LWEyODktZDhhNWYzYWY2M2NiXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                        "link": "https://videa.hu/videok/film-animacio/btc-s1e9-film-animacio-vEtx$lztFfP894ye3",
+                          "servers": []
+                      },
+                      {
+                        "id":"episode-56",
+                         "title":"حلقة 10 - الفتاة المحظوظة",
+                         "img":"https://flowind.net/wp-content/uploads/2021/09/Lucky_Girl_B10.webp",
+                         "link":"https://videa.hu/videok/film-animacio/btc-s1e10-film-animacio-VVlyV2qSO$HqLpuu8",
+                            "servers": []
+                       },
+                       {
+                         "id":"episode-57",
+                         "title":"حلقة 11 - مشكلة صغيرة",
+                           "img":"https://flowind.net/wp-content/uploads/2021/09/3b7fayt0riy81.jpg",
+                           "link":"https://videa.hu/videok/film-animacio/btc-s1e11-film-animacio-4YP5KRcmcNFb$Myy4",
+                             "servers": []
+                         },
+                          {
+                            "id":"episode-58",
+                            "title":"حلقة 12 - الآثار الجانبية",
+                             "img":"https://flowind.net/wp-content/uploads/2021/09/Side_Effects.webp",
+                           "link":"https://videa.hu/videok/film-animacio/btc-s1e12-film-animacio-yyHO0qgWFer85.dPf",
+                              "servers": []
+                          },
+                          {
+                            "id":"episode-59",
+                            "title": "حلقة 13 - أسرار",
+                            "img": "https://flowind.net/wp-content/uploads/2021/09/Secrets_vilgax_ben.webp",
+                           "link": "https://videa.hu/videok/film-animacio/btc-s1e13-film-animacio-pHJkoRqr7y0ddl.u4",
+                             "servers": []
+                           }
+           ]
+         },
+        {
+          "id": "season-2",
+          "title": "الموسم الثاني",
+          "episodes": [
+            {
+              "id": "episode-60",
+              "title": "حلقة 1 - الحقيقة",
+              "img": "https://flowind.net/wp-content/uploads/elementor/thumbs/MV5BOTE5OTcxN2UtOTliNC00OWNmLTg1ZmItNWZlNzQ2NWU3NTFlXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_-qub0c71u0qu2h63jx8le43lm54n55x7axtg3278nxs.jpg",
+               "link":"https://videa.hu/videok/film-animacio/btc-s2e1-film-animacio-MBbS3yNGEtp!pCUal",
+                  "servers": []
+            },
+            {
+              "id": "episode-61",
+              "title":"حلقة 2 - القراد الكبير",
+              "img":"https://flowind.net/wp-content/uploads/2021/09/Tick_29.webp",
+              "link":"https://videa.hu/videok/film-animacio/btc-s2e2-film-animacio-4FXoHMp0OCNEp!qnH",
+                "servers": []
+             },
+             {
+              "id": "episode-62",
+              "title":"حلقة 3 - متورط",
+              "img": "https://flowind.net/wp-content/uploads/2021/09/Framed.webp",
+              "link":"https://videa.hu/videok/film-animacio/btc-s2e3-film-animacio-yFNarVpROVnrqc!I7",
+                "servers": []
+              },
+              {
+               "id": "episode-63",
+                "title": "حلقة 4 - غوين 10",
+                "img": "https://flowind.net/wp-content/uploads/2021/09/Gwen_10.webp",
+                "link": "https://videa.hu/videok/film-animacio/btc-s2e4-film-animacio-RNhyMJVp7ugJQdR!c",
+                 "servers": []
+              },
+              {
+                  "id":"episode-64",
+                  "title":"حلقة 5 - مبارزة المجرة",
+                  "img": "https://flowind.net/wp-content/uploads/2021/09/498672.jpg",
+                  "link":"https://videa.hu/videok/film-animacio/btc-s2e5-film-animacio-k$jSpzfyok1DUOsPw",
+                   "servers": []
+              },
+               {
+                  "id":"episode-65",
+                "title":"حلقة 6 -  منقذو المجرة",
+                 "img":"https://flowind.net/wp-content/uploads/2021/09/Galactic_Enforcers.webp",
+                 "link":"https://videa.hu/videok/film-animacio/btc-s2e6-film-animacio-9KA$9wlNlH4YlEAJm",
+                    "servers": []
+                  },
+                   {
+                   "id":"episode-66",
+                   "title":"حلقة 7 - مخيم الرعب",
+                   "img": "https://flowind.net/wp-content/uploads/2021/09/MV5BNjdjZjJiMjgtODY3My00Mzc3LThkM2QtNTMzYjUxNTg1ZmYwXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                    "link": "https://videa.hu/videok/film-animacio/btc-s2e7-film-animacio-Or1Ae$Snz9zjBWKCF",
+                       "servers": []
+                  },
+                    {
+                     "id":"episode-67",
+                      "title":"حلقة 8 - السلاح المطلق",
+                       "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BYzJlMzkwMmItMGMwZC00NzZiLTk3NWMtY2Y3MGYxMGM2NThmXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                       "link": "https://videa.hu/videok/film-animacio/btc-s2e8-film-animacio-sh6btwNsyrn.7XK0v",
+                         "servers": []
+                    },
+                    {
+                       "id":"episode-68",
+                      "title":"حلقة 9 - الحظ القاسي",
+                       "img":"https://flowind.net/wp-content/uploads/2021/09/Tough_luck.webp",
+                       "link":"https://videa.hu/videok/film-animacio/btc-s2e9-film-animacio-jLhlkW4AHbo$Wzg1t",
+                       "servers": []
+                    },
+                     {
+                      "id":"episode-69",
+                      "title":"حلقة 10 - إنها كامنة بالأسفل",
+                       "img":"https://flowind.net/wp-content/uploads/elementor/thumbs/MV5BZWQ4YmFhMjEtODczNi00MDcxLTkxN2EtYTlmYTc4OThjNTYzXkEyXkFqcGdeQXVyNTk4NDI4NTE@._V1_-qtmjjr06l05icopyv1ycalwl5c8li1u3pv1kxovs4g.jpg",
+                       "link":"https://videa.hu/videok/film-animacio/btc-s2e10-film-animacio-f_CgGyUszk2mHMT4s",
+                            "servers": []
+                      },
+                       {
+                         "id":"episode-70",
+                         "title":"حلقة 11 - تحرر غوستفريك",
+                         "img":"https://flowind.net/wp-content/uploads/2021/09/Ghostfreaked_Out.webp",
+                         "link":"https://videa.hu/videok/film-animacio/btc-s2e11-film-animacio-RihT_8UoozfMW4vFh",
+                            "servers": []
+                       },
+                      {
+                         "id":"episode-71",
+                         "title":"حلقة 12 - دكتور أنيمو وراء الوحوش",
+                         "img":"https://flowind.net/wp-content/uploads/2021/09/Mutant_29.webp",
+                         "link": "https://videa.hu/videok/film-animacio/btc-s2e12-film-animacio-GwzTEz_JJOC9PoRVA",
+                           "servers": []
+                       }
+          ]
+        },
+         {
+          "id": "season-3",
+          "title": "الموسم الثالث",
+          "episodes": [
+               {
+                  "id":"episode-72",
+                  "title":"حلقة 1 - بن عشرة آلاف",
+                   "img":"https://flowind.net/wp-content/uploads/2021/09/Ben_102C000.webp",
+                 "link": "https://videa.hu/videok/film-animacio/btc-s3e1-film-animacio-dhjLw5iAv24On73.o",
+                   "servers": []
+                },
+                 {
+                    "id":"episode-73",
+                    "title":"حلقة 2 - جنون منتصف الليل",
+                     "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BNTk2YTlmYTYtZDAwNi00M2ZjLWI1NmEtMWU4NGYwMzAzZWJiXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                     "link":"https://videa.hu/videok/film-animacio/btc-s3e2-film-animacio-3KvAxcw24iHmaCXs.",
+                        "servers": []
+                   },
+                    {
+                       "id":"episode-74",
+                       "title":"حلقة 3 - تغير القَدَر",
+                        "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BYmU0NTIxNDctMGUxZC00NTg2LTgzYzctMjI3ZDYzMDM2MGI5XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                        "link": "https://videa.hu/videok/film-animacio/btc-s3e3-film-animacio-Y!hhkcC76tVCazZQ9",
+                         "servers": []
+                     },
+                     {
+                        "id":"episode-75",
+                        "title":"حلقة 4 - عيد ميلاد مجيد",
+                        "img":"https://flowind.net/wp-content/uploads/2021/09/WhatsApp-Image-2024-09-04-at-22.26.41_da4f6912.jpg",
+                        "link": "https://videa.hu/videok/film-animacio/btc-s3e4-film-animacio-DrF1hQH$yeFtgGiyk",
+                          "servers": []
+                    },
+                    {
+                        "id":"episode-76",
+                       "title":"حلقة 5 - بن المستذئب",
+                       "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BZWU2ZGU0NzMtNzdmNC00ZDQwLTg2NDctOTk3NGNkMzBmMTdkXkEyXkFqcGdeQXVyMTMxNTY3OTE4._V1_.jpg",
+                        "link":"https://videa.hu/videok/film-animacio/btc-s3e5-film-animacio-Lw!7d7KjaETohVX9d",
+                         "servers": []
+                    },
+                    {
+                      "id":"episode-77",
+                       "title":"حلقة 6 - انتهت اللعبة",
+                       "img":"https://flowind.net/wp-content/uploads/2021/09/Game_Over.webp",
+                       "link": "https://videa.hu/videok/film-animacio/btc-s3e6-film-animacio-GQ2!vzjqzrJUlh3z4",
+                         "servers": []
+                      },
+                      {
+                         "id":"episode-78",
+                          "title":"حلقة 7 - مغامرات الأبطال الفضائييين الخارقين",
+                          "img":"https://flowind.net/wp-content/uploads/2021/09/Super_Alien_Hero_Buddy_Adventures.webp",
+                            "link":"https://videa.hu/videok/film-animacio/btc-s3e7-film-animacio-wFGD!RfGQTEm4Y9ec",
+                              "servers": []
+                      },
+                       {
+                         "id":"episode-79",
+                         "title":"حلقة 8 - تحت الكتمان",
+                           "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BNGQxNjBkZTEtNzI0Yy00NGRhLTgyYzktNWE1NGU3OTA1YThiXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                            "link":"https://videa.hu/videok/film-animacio/btc-s3e8-film-animacio-5EKcv!ElmGHpbpyOV",
+                             "servers": []
+                        }
+           ]
+        },
+         {
+          "id": "season-4",
+          "title": "الموسم الرابع",
+          "episodes": [
+               {
+                 "id":"episode-80",
+                   "title":"حلقة 1 - يوم مثالي",
+                    "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BMmQ4NmU5YTItNDk0NC00ZDM1LWI4YjMtZjA3NTNkMzkwYTdlXkEyXkFqcGdeQXVyMTMyNzgyNjgz._V1_.jpg",
+                  "link":"https://videa.hu/videok/film-animacio/btc-s4e1-film-animacio-evN.cOpKIUiO65DQo",
+                    "servers": []
+                },
+               {
+                 "id":"episode-81",
+                   "title":"حلقة 2 - في الاتحاد قوة",
+                  "img":"https://flowind.net/wp-content/uploads/2021/09/Ditto22.webp",
+                    "link":"https://videa.hu/videok/film-animacio/btc-s4e2-film-animacio-TI2D.e2iKIiRud42Z",
+                      "servers": []
+               },
+                {
+                 "id":"episode-82",
+                  "title":"حلقة 3 - لا تشرب من هذا الماء",
+                 "img":"https://flowind.net/wp-content/uploads/2021/09/Drink_29.webp",
+                   "link":"https://videa.hu/videok/film-animacio/btc-s4e3-film-animacio-hXTdD.V54v4yODzzN",
+                   "servers": []
+                 },
+                {
+                  "id":"episode-83",
+                   "title":"حلقة 4 - حفل زفاف غريب",
+                     "img":"https://flowind.net/wp-content/uploads/2021/09/Big_Fat_Alien_Wedding.webp",
+                     "link": "https://videa.hu/videok/film-animacio/btc-s4e4-film-animacio-rtVNbG.s5fLTvk6Sh",
+                        "servers": []
+                  },
+                  {
+                     "id":"episode-84",
+                      "title":"حلقة 5 - عربتنا الجميلة",
+                      "img":"https://flowind.net/wp-content/uploads/elementor/thumbs/MV5BZmQyNjZhOWQtMDk5YS00MmFiLWEwNDQtMGFhYjJiMjQxMzZlXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_-qtmm247k2h0l4jixd0bls3ptlgz0xxs1qe4g5tjcy8.jpg",
+                     "link": "https://videa.hu/videok/film-animacio/btc-s4e5-film-animacio-Wl319GV6.RxpBHwoW",
+                        "servers": []
+                 },
+                 {
+                   "id":"episode-85",
+                    "title":"حلقة 6 - على استعداد للقتال",
+                      "img":"https://flowind.net/wp-content/uploads/2021/09/Ready_To_Rumble.webp",
+                      "link":"https://videa.hu/videok/film-animacio/btc-s4e6-film-animacio-045nilOP3.5jIxo5S",
+                        "servers": []
+                    },
+                   {
+                    "id":"episode-86",
+                    "title":"حلقة 7 - كين 10",
+                    "img":"https://flowind.net/wp-content/uploads/2021/09/DevlinKenny.webp",
+                     "link":"https://videa.hu/videok/film-animacio/btc-s4e7-film-animacio-e8fpmgmRaZ.chQHG7",
+                     "servers": []
+                   },
+                    {
+                     "id":"episode-87",
+                    "title":"حلقة 8 - بن 10 ضد نقيضي 10 ج1",
+                     "img":"https://flowind.net/wp-content/uploads/2021/09/Ben_10_vs._the_Negative_10_Part_1.webp",
+                     "link":"https://videa.hu/videok/film-animacio/btc-s4e8-film-animacio-sh6btwNsyrn.7XK0v",
+                        "servers": []
+                     },
+                     {
+                        "id":"episode-88",
+                         "title":"حلقة 9 - بن 10 ضد نقيضي 10 ج2",
+                          "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BNDJlNzkyZDEtMjBjNC00OWNiLTljYzYtZGEzYTk0NDA0MzA2XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                          "link":"https://videa.hu/videok/film-animacio/btc-s4e9-film-animacio-JzaYfgWng8l9.fDck",
+                           "servers": []
+                     },
+                      {
+                        "id":"episode-89",
+                         "title":"حلقة 10 - وداعًا وبئس المصير",
+                          "img":"https://flowind.net/wp-content/uploads/2021/09/810yp7tj1iac1.png",
+                           "link": "https://videa.hu/videok/film-animacio/btc-s4e10-film-animacio-Vq7xpa8!ThMxpzxeY",
+                            "servers": []
+                       },
+                      {
+                          "id":"episode-90",
+                         "title":"حلقة 11 - ها قد عدنا",
+                         "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BZWU5OTZiNTUtM2IzZi00OTNkLWIzNzgtN2VjYmY1NDQzYzZiXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                         "link":"https://videa.hu/videok/film-animacio/btc-s4e11-film-animacio-IDGSjxHU!krnWA4At",
+                          "servers": []
+                      },
+                       {
+                         "id":"episode-91",
+                           "title":"حلقة 12 - الخوف من الظلام",
+                           "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BM2Q0ZjU2NjYtNTJkYS00MjIyLWE5ZjQtNGUxNzc0MjQ2N2U2XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                           "link":"https://videa.hu/videok/film-animacio/btc-s4e12-film-animacio-6zOqT1GzK!qfpz3Np",
+                             "servers": []
+                         },
+                       {
+                        "id":"episode-92",
+                         "title":"حلقة 13 - الزائرة",
+                           "img":"https://flowind.net/wp-content/uploads/2021/09/MV5BYmY0M2JkZjEtZmRhNC00NDZhLWFkYmItYjA1N2I3NDlmOTM4XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+                           "link": "https://videa.hu/videok/film-animacio/btc-s4e13-film-animacio-9Pvlyrm33OJ!uCgVt",
+                              "servers": []
+                       }
+           ]
+        }
+      ]
     }
   ]
 }
+ 
