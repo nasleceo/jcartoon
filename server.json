@@ -1579,6 +1579,1231 @@
               "servers": []
             }
           ]
+        },
+        {
+          "id": "season-2",
+          "title": "Season 2",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S02E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S02E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S02E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S02E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S02E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S02E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S02E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S02E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S02E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S02E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E10.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-11",
+              "title": "Ninjago-S02E11.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E11.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-12",
+              "title": "Ninjago-S02E12.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E12.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-13",
+              "title": "Ninjago-S02E13.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s2/Ninjago-S02E13.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-3",
+          "title": "Season 3",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S03E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S03E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S03E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S03E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S03E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S03E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S03E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S03E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s3/Ninjago-S03E08.mp4",
+              "servers": []
+            }
+          ]
+        },
+        {
+          "id": "season-4",
+          "title": "Season 4",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S04E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S04E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S04E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S04E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S04E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S04E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S04E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S04E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S04E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S04E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s4/Ninjago-S04E10.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-5",
+          "title": "Season 5",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S05E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S05E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S05E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S05E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S05E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S05E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S05E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S05E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S05E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S05E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s5/Ninjago-S05E10.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-6",
+          "title": "Season 6",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S06E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S06E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S06E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S06E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S06E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S06E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S06E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S06E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S06E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S06E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s6/Ninjago-S06E10.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-7",
+          "title": "Season 7",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S07E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S07E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S07E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S07E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S07E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S07E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S07E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S07E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S07E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S07E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s7/Ninjago-S07E10.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-8",
+          "title": "Season 8",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S08E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S08E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S08E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S08E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S08E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S08E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S08E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S08E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S08E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S08E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s8/Ninjago-S08E10.mp4",
+              "servers": []
+            }
+          ]
+        },
+        {
+          "id": "season-9",
+          "title": "Season 9",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S09E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S09E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S09E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S09E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S09E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S09E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S09E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S09E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S09E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S09E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s9/Ninjago-S09E10.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-10",
+          "title": "Season 10",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S10E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s10/Ninjago-S10E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S10E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s10/Ninjago-S10E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S10E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s10/Ninjago-S10E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S10E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s10/Ninjago-S10E04.mp4",
+              "servers": []
+            }
+          ]
+        },
+        {
+          "id": "season-11",
+          "title": "Season 11",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S11E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S11E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S11E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S11E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S11E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S11E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S11E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S11E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S11E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S11E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E10.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-11",
+              "title": "Ninjago-S11E11.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E11.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-12",
+              "title": "Ninjago-S11E12.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E12.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-13",
+              "title": "Ninjago-S11E13.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E13.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-14",
+              "title": "Ninjago-S11E14.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E14.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-15",
+              "title": "Ninjago-S11E15.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E15.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-16",
+              "title": "Ninjago-S11E16.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E16.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-17",
+              "title": "Ninjago-S11E17.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E17.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-18",
+              "title": "Ninjago-S11E18.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E18.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-19",
+              "title": "Ninjago-S11E19.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E19.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-20",
+              "title": "Ninjago-S11E20.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E20.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-21",
+              "title": "Ninjago-S11E21.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E21.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-22",
+              "title": "Ninjago-S11E22.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E22.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-23",
+              "title": "Ninjago-S11E23.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E23.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-24",
+              "title": "Ninjago-S11E24.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E24.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-25",
+              "title": "Ninjago-S11E25.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E25.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-26",
+              "title": "Ninjago-S11E26.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E26.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-27",
+              "title": "Ninjago-S11E27.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E27.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-28",
+              "title": "Ninjago-S11E28.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s11/Ninjago-S11E28.mp4",
+              "servers": []
+            }
+          ]
+        },
+        {
+          "id": "season-12",
+          "title": "Season 12",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S12E01_mp4.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E01_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S12E02_mp4.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E02_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S12E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S12E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S12E05_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E05_mkv.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S12E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S12E07_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E07_mkv.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S12E08_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E08_mkv.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S12E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S12E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E10.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-11",
+              "title": "Ninjago-S12E11_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E11_mkv.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-12",
+              "title": "Ninjago-S12E12_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E12_mkv.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-13",
+              "title": "Ninjago-S12E13.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E13.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-14",
+              "title": "Ninjago-S12E14.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E14.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-15",
+              "title": "Ninjago-S12E15_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E15_mkv.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-16",
+              "title": "Ninjago-S12E16_mkv.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s12/Ninjago-S12E16_mkv.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-13",
+          "title": "Season 13",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S13E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E01.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S13E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E02.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S13E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E03.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S13E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E04.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S13E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E05.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S13E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E06.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S13E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E07.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S13E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E08.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S13E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E09.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S13E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E10.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-11",
+              "title": "Ninjago-S13E11.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E11.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-12",
+              "title": "Ninjago-S13E12.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E12.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-13",
+              "title": "Ninjago-S13E13.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E13.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-14",
+              "title": "Ninjago-S13E14.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E14.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-15",
+              "title": "Ninjago-S13E15.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E15.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-16",
+              "title": "Ninjago-S13E16.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s13/Ninjago-S13E16.mp4",
+              "servers": []
+            }
+          ]
+        },{
+          "id": "season-14",
+          "title": "Season 14",
+          "episodes": [
+            {
+              "id": "episode-01",
+              "title": "Ninjago-S14E01.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الاول---الحلقة-1----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-02",
+              "title": "Ninjago-S14E02.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الاول---الحلقة-2----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-03",
+              "title": "Ninjago-S14E03.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الاول---الحلقة-3----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-04",
+              "title": "Ninjago-S14E04.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الاول---الحلقة-4----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-05",
+              "title": "Ninjago-S14E05.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-1----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-06",
+              "title": "Ninjago-S14E06.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-2----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-07",
+              "title": "Ninjago-S14E07.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-3----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-08",
+              "title": "Ninjago-S14E08.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-4----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-09",
+              "title": "Ninjago-S14E09.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-5----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-10",
+              "title": "Ninjago-S14E10.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-6----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-11",
+              "title": "Ninjago-S14E11.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-7----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-12",
+              "title": "Ninjago-S14E12.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-8----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-13",
+              "title": "Ninjago-S14E13.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-9----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-14",
+              "title": "Ninjago-S14E14.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-10----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-15",
+              "title": "Ninjago-S14E15.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-11----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-16",
+              "title": "Ninjago-S14E16.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-12----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-13",
+              "title": "Ninjago-S14E13.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-13----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-14",
+              "title": "Ninjago-S14E14.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-14----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-15",
+              "title": "Ninjago-S14E15.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-15----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            },
+            {
+              "id": "episode-16",
+              "title": "Ninjago-S14E16.mp4",
+              "img": "placeholder_episode_image_url",
+              "link": "http://filemanager.hyperwatching.com/uploads/anass-folder/ninja-go/s14/نينجاغو--الموسم-14---الجزء-الثاني---الحلقة-16----M_D_E-eps--_mp4.mp4",
+              "servers": []
+            }
+          ]
         }
       ]
     },
